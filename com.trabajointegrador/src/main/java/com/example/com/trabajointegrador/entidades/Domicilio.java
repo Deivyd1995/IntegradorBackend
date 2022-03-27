@@ -2,6 +2,7 @@ package com.example.com.trabajointegrador.entidades;
 
 public class Domicilio{
 
+    //Esto es un ensayo de commit
     private int id;
     private String calle;
     private int numero;
