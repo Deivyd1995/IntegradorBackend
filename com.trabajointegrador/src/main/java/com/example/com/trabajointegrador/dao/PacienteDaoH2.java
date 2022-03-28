@@ -17,8 +17,9 @@ public class PacienteDaoH2 implements IDao<Paciente>{
     private final static String DB_URL = "jdbc:h2:~/clinica_maven";
     private final static String DB_USER ="sa";
     private final static String DB_PASSWORD = "";
-    private final static Logger logger = Logger.getLogger(OdontologoDaoH2.class);
+    private final static Logger logger = Logger.getLogger(PacienteDaoH2.class);
     private DomicilioDaoH2 domicilioDaoH2 = new DomicilioDaoH2();
+
 
     @Override
     public Paciente registrar(Paciente paciente) {
