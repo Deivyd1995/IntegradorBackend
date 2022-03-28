@@ -37,5 +37,11 @@ public class PacienteController {
         return pacienteService.buscarTodosPacientes();
     }
 
+    @DeleteMapping("eliminar/{userId}")
+    public void eliminarPaciente(@PathVariable int userId){
+        pacienteService.setPacienteIDao(new PacienteDaoH2());
+        pacienteService.eliminarPaciente(userId);
+    }
+
 
 }

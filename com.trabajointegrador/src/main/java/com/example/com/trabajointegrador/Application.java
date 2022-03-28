@@ -29,10 +29,10 @@ public class Application {
 
 
 
-		Turno turno1 = new Turno(pacienteService.buscarPaciente(1),odontologoService.buscarOdontologo(1),new Date());
+		//Turno turno1 = new Turno(pacienteService.buscarPaciente(1),odontologoService.buscarOdontologo(1),new Date());
 		//turnoService.registrarTurno(turno1);
 
-		pacienteService.buscarPaciente(1);
+		//pacienteService.buscarPaciente(1);
 		//turnoService.buscarTurno(1);
 
 	}
