@@ -1,0 +1,503 @@
+[2022-03-28 23:41:43]  INFO  PacienteDaoH2:167 Init connection to DB
+[2022-03-28 23:41:43]  INFO  PacienteDaoH2:172 Connection SUCCESS
+[2022-03-28 23:41:43]  INFO  PacienteDaoH2:176 Try execute query
+[2022-03-28 23:41:43]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-28 23:41:43]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-28 23:41:43]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-28 23:41:43]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=1, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}
+[2022-03-28 23:41:43]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-28 23:41:43]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-28 23:41:43]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-28 23:41:43]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=2, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}
+[2022-03-28 23:41:43]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-28 23:41:43]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-28 23:41:43]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-28 23:41:43]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=3, calle='San Luis', numero=3376, localidad='Almagro', provincia='CABA'}
+[2022-03-28 23:41:43]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-28 23:41:43]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-28 23:41:43]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-28 23:41:43]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=4, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}
+[2022-03-28 23:41:43]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-28 23:41:43]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-28 23:41:43]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-28 23:41:43]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=5, calle='San Luis', numero=3376, localidad='Almagro', provincia='CABA'}
+[2022-03-28 23:41:43]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-28 23:41:43]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-28 23:41:43]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-28 23:41:43]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=6, calle='Olivos', numero=1133, localidad='Alberti', provincia='Bs.As'}
+[2022-03-28 23:41:43]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-28 23:41:43]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-28 23:41:43]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-28 23:41:43]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=7, calle='San martin de Cruz', numero=1457, localidad='San Martin', provincia='Tucuman'}
+[2022-03-28 23:41:43]  INFO  PacienteDaoH2:202 Se realizó satisfactoriamente la búsqueda del paciente [Paciente{id=1, nombre='Jahdai', apellido='Reyes', DNI=95950457, fechaIngreso=2022-03-19, domicilio=Domicilio{id=1, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}}, Paciente{id=2, nombre='Jahdai', apellido='Reyes', DNI=95950457, fechaIngreso=2022-03-19, domicilio=Domicilio{id=2, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}}, Paciente{id=3, nombre='David', apellido='Moriello', DNI=38939746, fechaIngreso=2022-03-19, domicilio=Domicilio{id=3, calle='San Luis', numero=3376, localidad='Almagro', provincia='CABA'}}, Paciente{id=4, nombre='Jahdai', apellido='Reyes', DNI=95950457, fechaIngreso=2022-03-19, domicilio=Domicilio{id=4, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}}, Paciente{id=5, nombre='David', apellido='Moriello', DNI=38939746, fechaIngreso=2022-03-19, domicilio=Domicilio{id=5, calle='San Luis', numero=3376, localidad='Almagro', provincia='CABA'}}, Paciente{id=6, nombre='Tomi', apellido='Cruz', DNI=48515314, fechaIngreso=2022-03-25, domicilio=Domicilio{id=6, calle='Olivos', numero=1133, localidad='Alberti', provincia='Bs.As'}}, Paciente{id=7, nombre='Julieta', apellido='De la vega', DNI=45632187, fechaIngreso=2022-01-25, domicilio=Domicilio{id=7, calle='San martin de Cruz', numero=1457, localidad='San Martin', provincia='Tucuman'}}]
+[2022-03-28 23:42:05]  INFO  PacienteDaoH2:79 Init connection to DB
+[2022-03-28 23:42:05]  INFO  PacienteDaoH2:84 Connection SUCCESS
+[2022-03-28 23:42:05]  INFO  PacienteDaoH2:89 Try execute query
+[2022-03-28 23:42:05]  INFO  PacienteDaoH2:91 Execute query SUCCESS
+[2022-03-28 23:42:05]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-28 23:42:05]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-28 23:42:05]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-28 23:42:05]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=2, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}
+[2022-03-28 23:42:05]  INFO  PacienteDaoH2:110 Se realizó satisfactoriamente la búsqueda del paciente Paciente{id=2, nombre='Jahdai', apellido='Reyes', DNI=95950457, fechaIngreso=2022-03-19, domicilio=Domicilio{id=2, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}}
+[2022-03-28 23:42:05]  INFO  PacienteDaoH2:131 Init connection to DB
+[2022-03-28 23:42:05]  INFO  PacienteDaoH2:136 Connection SUCCESS
+[2022-03-28 23:42:05]  INFO  PacienteDaoH2:141 Try execute Delete query
+[2022-03-28 23:42:05]  INFO  PacienteDaoH2:144 DELETE SUCCESS
+[2022-03-28 23:42:29]  INFO  PacienteDaoH2:167 Init connection to DB
+[2022-03-28 23:42:29]  INFO  PacienteDaoH2:172 Connection SUCCESS
+[2022-03-28 23:42:29]  INFO  PacienteDaoH2:176 Try execute query
+[2022-03-28 23:42:29]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-28 23:42:29]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-28 23:42:29]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-28 23:42:29]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=1, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}
+[2022-03-28 23:42:29]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-28 23:42:29]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-28 23:42:29]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-28 23:42:29]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=3, calle='San Luis', numero=3376, localidad='Almagro', provincia='CABA'}
+[2022-03-28 23:42:29]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-28 23:42:29]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-28 23:42:29]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-28 23:42:29]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=4, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}
+[2022-03-28 23:42:29]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-28 23:42:29]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-28 23:42:29]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-28 23:42:29]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=5, calle='San Luis', numero=3376, localidad='Almagro', provincia='CABA'}
+[2022-03-28 23:42:29]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-28 23:42:29]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-28 23:42:29]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-28 23:42:29]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=6, calle='Olivos', numero=1133, localidad='Alberti', provincia='Bs.As'}
+[2022-03-28 23:42:29]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-28 23:42:29]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-28 23:42:29]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-28 23:42:29]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=7, calle='San martin de Cruz', numero=1457, localidad='San Martin', provincia='Tucuman'}
+[2022-03-28 23:42:29]  INFO  PacienteDaoH2:202 Se realizó satisfactoriamente la búsqueda del paciente [Paciente{id=1, nombre='Jahdai', apellido='Reyes', DNI=95950457, fechaIngreso=2022-03-19, domicilio=Domicilio{id=1, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}}, Paciente{id=3, nombre='David', apellido='Moriello', DNI=38939746, fechaIngreso=2022-03-19, domicilio=Domicilio{id=3, calle='San Luis', numero=3376, localidad='Almagro', provincia='CABA'}}, Paciente{id=4, nombre='Jahdai', apellido='Reyes', DNI=95950457, fechaIngreso=2022-03-19, domicilio=Domicilio{id=4, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}}, Paciente{id=5, nombre='David', apellido='Moriello', DNI=38939746, fechaIngreso=2022-03-19, domicilio=Domicilio{id=5, calle='San Luis', numero=3376, localidad='Almagro', provincia='CABA'}}, Paciente{id=6, nombre='Tomi', apellido='Cruz', DNI=48515314, fechaIngreso=2022-03-25, domicilio=Domicilio{id=6, calle='Olivos', numero=1133, localidad='Alberti', provincia='Bs.As'}}, Paciente{id=7, nombre='Julieta', apellido='De la vega', DNI=45632187, fechaIngreso=2022-01-25, domicilio=Domicilio{id=7, calle='San martin de Cruz', numero=1457, localidad='San Martin', provincia='Tucuman'}}]
+[2022-03-28 23:43:16]  INFO  PacienteDaoH2:79 Init connection to DB
+[2022-03-28 23:43:16]  INFO  PacienteDaoH2:84 Connection SUCCESS
+[2022-03-28 23:43:16]  INFO  PacienteDaoH2:89 Try execute query
+[2022-03-28 23:43:16]  INFO  PacienteDaoH2:91 Execute query SUCCESS
+[2022-03-28 23:43:52]  INFO  PacienteDaoH2:79 Init connection to DB
+[2022-03-28 23:43:52]  INFO  PacienteDaoH2:84 Connection SUCCESS
+[2022-03-28 23:43:52]  INFO  PacienteDaoH2:89 Try execute query
+[2022-03-28 23:43:52]  INFO  PacienteDaoH2:91 Execute query SUCCESS
+[2022-03-28 23:43:52]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-28 23:43:52]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-28 23:43:52]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-28 23:43:52]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=1, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}
+[2022-03-28 23:43:52]  INFO  PacienteDaoH2:110 Se realizó satisfactoriamente la búsqueda del paciente Paciente{id=1, nombre='Jahdai', apellido='Reyes', DNI=95950457, fechaIngreso=2022-03-19, domicilio=Domicilio{id=1, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}}
+[2022-03-28 23:49:02]  INFO  PacienteDaoH2:79 Init connection to DB
+[2022-03-28 23:49:02]  INFO  PacienteDaoH2:84 Connection SUCCESS
+[2022-03-28 23:49:02]  INFO  PacienteDaoH2:89 Try execute query
+[2022-03-28 23:49:02]  INFO  PacienteDaoH2:91 Execute query SUCCESS
+[2022-03-28 23:49:02]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-28 23:49:02]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-28 23:49:02]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-28 23:49:02]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=1, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}
+[2022-03-28 23:49:02]  INFO  PacienteDaoH2:110 Se realizó satisfactoriamente la búsqueda del paciente Paciente{id=1, nombre='Jahdai', apellido='Reyes', DNI=95950457, fechaIngreso=2022-03-19, domicilio=Domicilio{id=1, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}}
+[2022-03-28 23:52:39]  INFO  PacienteDaoH2:79 Init connection to DB
+[2022-03-28 23:52:39]  INFO  PacienteDaoH2:84 Connection SUCCESS
+[2022-03-28 23:52:39]  INFO  PacienteDaoH2:89 Try execute query
+[2022-03-28 23:52:39]  INFO  PacienteDaoH2:91 Execute query SUCCESS
+[2022-03-28 23:52:39]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-28 23:52:39]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-28 23:52:39]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-28 23:52:39]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=1, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}
+[2022-03-28 23:52:39]  INFO  PacienteDaoH2:110 Se realizó satisfactoriamente la búsqueda del paciente Paciente{id=1, nombre='Jahdai', apellido='Reyes', DNI=95950457, fechaIngreso=2022-03-19, domicilio=Domicilio{id=1, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}}
+[2022-03-28 23:52:39]  INFO  PacienteDaoH2:224 Init connection to DB
+[2022-03-28 23:52:39]  INFO  PacienteDaoH2:229 Connection SUCCESS
+[2022-03-28 23:52:39]  ERROR PacienteDaoH2:245 org.h2.jdbc.JdbcSQLDataException: Valor Invalido "1" para el parametro "parameterIndex"
+Invalid value "1" for parameter "parameterIndex" [90008-210]
+[2022-03-28 23:53:07]  INFO  PacienteDaoH2:79 Init connection to DB
+[2022-03-28 23:53:07]  INFO  PacienteDaoH2:84 Connection SUCCESS
+[2022-03-28 23:53:07]  INFO  PacienteDaoH2:89 Try execute query
+[2022-03-28 23:53:07]  INFO  PacienteDaoH2:91 Execute query SUCCESS
+[2022-03-28 23:53:07]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-28 23:53:07]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-28 23:53:07]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-28 23:53:07]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=1, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}
+[2022-03-28 23:53:07]  INFO  PacienteDaoH2:110 Se realizó satisfactoriamente la búsqueda del paciente Paciente{id=1, nombre='Jahdai', apellido='Reyes', DNI=95950457, fechaIngreso=2022-03-19, domicilio=Domicilio{id=1, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}}
+[2022-03-28 23:53:07]  INFO  PacienteDaoH2:224 Init connection to DB
+[2022-03-28 23:53:07]  INFO  PacienteDaoH2:229 Connection SUCCESS
+[2022-03-28 23:53:07]  ERROR PacienteDaoH2:245 org.h2.jdbc.JdbcSQLDataException: Valor Invalido "1" para el parametro "parameterIndex"
+Invalid value "1" for parameter "parameterIndex" [90008-210]
+[2022-03-28 23:53:54]  INFO  PacienteDaoH2:224 Init connection to DB
+[2022-03-28 23:53:54]  INFO  PacienteDaoH2:229 Connection SUCCESS
+[2022-03-28 23:53:54]  ERROR PacienteDaoH2:245 org.h2.jdbc.JdbcSQLDataException: Valor Invalido "1" para el parametro "parameterIndex"
+Invalid value "1" for parameter "parameterIndex" [90008-210]
+[2022-03-28 23:53:54]  INFO  PacienteDaoH2:167 Init connection to DB
+[2022-03-28 23:53:54]  INFO  PacienteDaoH2:172 Connection SUCCESS
+[2022-03-28 23:53:54]  INFO  PacienteDaoH2:176 Try execute query
+[2022-03-28 23:53:54]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-28 23:53:54]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-28 23:53:54]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-28 23:53:54]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=1, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}
+[2022-03-28 23:53:54]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-28 23:53:54]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-28 23:53:54]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-28 23:53:54]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=3, calle='San Luis', numero=3376, localidad='Almagro', provincia='CABA'}
+[2022-03-28 23:53:54]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-28 23:53:54]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-28 23:53:54]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-28 23:53:54]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=4, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}
+[2022-03-28 23:53:54]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-28 23:53:54]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-28 23:53:54]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-28 23:53:54]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=5, calle='San Luis', numero=3376, localidad='Almagro', provincia='CABA'}
+[2022-03-28 23:53:54]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-28 23:53:54]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-28 23:53:54]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-28 23:53:54]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=6, calle='Olivos', numero=1133, localidad='Alberti', provincia='Bs.As'}
+[2022-03-28 23:53:54]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-28 23:53:54]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-28 23:53:54]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-28 23:53:54]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=7, calle='San martin de Cruz', numero=1457, localidad='San Martin', provincia='Tucuman'}
+[2022-03-28 23:53:54]  INFO  PacienteDaoH2:202 Se realizó satisfactoriamente la búsqueda del paciente [Paciente{id=1, nombre='Jahdai', apellido='Reyes', DNI=95950457, fechaIngreso=2022-03-19, domicilio=Domicilio{id=1, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}}, Paciente{id=3, nombre='David', apellido='Moriello', DNI=38939746, fechaIngreso=2022-03-19, domicilio=Domicilio{id=3, calle='San Luis', numero=3376, localidad='Almagro', provincia='CABA'}}, Paciente{id=4, nombre='Jahdai', apellido='Reyes', DNI=95950457, fechaIngreso=2022-03-19, domicilio=Domicilio{id=4, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}}, Paciente{id=5, nombre='David', apellido='Moriello', DNI=38939746, fechaIngreso=2022-03-19, domicilio=Domicilio{id=5, calle='San Luis', numero=3376, localidad='Almagro', provincia='CABA'}}, Paciente{id=6, nombre='Tomi', apellido='Cruz', DNI=48515314, fechaIngreso=2022-03-25, domicilio=Domicilio{id=6, calle='Olivos', numero=1133, localidad='Alberti', provincia='Bs.As'}}, Paciente{id=7, nombre='Julieta', apellido='De la vega', DNI=45632187, fechaIngreso=2022-01-25, domicilio=Domicilio{id=7, calle='San martin de Cruz', numero=1457, localidad='San Martin', provincia='Tucuman'}}]
+[2022-03-28 23:54:49]  INFO  PacienteDaoH2:79 Init connection to DB
+[2022-03-28 23:54:49]  INFO  PacienteDaoH2:84 Connection SUCCESS
+[2022-03-28 23:54:49]  INFO  PacienteDaoH2:89 Try execute query
+[2022-03-28 23:54:49]  INFO  PacienteDaoH2:91 Execute query SUCCESS
+[2022-03-28 23:54:49]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-28 23:54:49]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-28 23:54:49]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-28 23:54:49]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=1, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}
+[2022-03-28 23:54:49]  INFO  PacienteDaoH2:110 Se realizó satisfactoriamente la búsqueda del paciente Paciente{id=1, nombre='Jahdai', apellido='Reyes', DNI=95950457, fechaIngreso=2022-03-19, domicilio=Domicilio{id=1, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}}
+[2022-03-28 23:58:01]  INFO  PacienteDaoH2:79 Init connection to DB
+[2022-03-28 23:58:01]  INFO  PacienteDaoH2:84 Connection SUCCESS
+[2022-03-28 23:58:01]  INFO  PacienteDaoH2:89 Try execute query
+[2022-03-28 23:58:01]  INFO  PacienteDaoH2:91 Execute query SUCCESS
+[2022-03-28 23:58:01]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-28 23:58:01]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-28 23:58:01]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-28 23:58:01]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=1, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}
+[2022-03-28 23:58:01]  INFO  PacienteDaoH2:110 Se realizó satisfactoriamente la búsqueda del paciente Paciente{id=1, nombre='Jahdai', apellido='Reyes', DNI=95950457, fechaIngreso=2022-03-19, domicilio=Domicilio{id=1, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}}
+[2022-03-28 23:58:01]  INFO  PacienteDaoH2:224 Init connection to DB
+[2022-03-28 23:58:01]  INFO  PacienteDaoH2:229 Connection SUCCESS
+[2022-03-28 23:58:01]  ERROR PacienteDaoH2:246 org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "UPDATE paciente SET id = '%s' [*]nombre = '%s', apellido = '%s', dni = '%s', fecha_ingreso = '%s'"
+Syntax error in SQL statement "UPDATE paciente SET id = '%s' [*]nombre = '%s', apellido = '%s', dni = '%s', fecha_ingreso = '%s'"; SQL statement:
+UPDATE paciente SET id = '%s' nombre = '%s', apellido = '%s', dni = '%s', fecha_ingreso = '%s' [42000-210]
+[2022-03-29 00:00:52]  INFO  PacienteDaoH2:79 Init connection to DB
+[2022-03-29 00:00:53]  INFO  PacienteDaoH2:84 Connection SUCCESS
+[2022-03-29 00:00:53]  INFO  PacienteDaoH2:89 Try execute query
+[2022-03-29 00:00:53]  INFO  PacienteDaoH2:91 Execute query SUCCESS
+[2022-03-29 00:00:53]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-29 00:00:53]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-29 00:00:53]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-29 00:00:53]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=1, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}
+[2022-03-29 00:00:53]  INFO  PacienteDaoH2:110 Se realizó satisfactoriamente la búsqueda del paciente Paciente{id=1, nombre='Jahdai', apellido='Reyes', DNI=95950457, fechaIngreso=2022-03-19, domicilio=Domicilio{id=1, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}}
+[2022-03-29 00:00:53]  INFO  PacienteDaoH2:224 Init connection to DB
+[2022-03-29 00:00:53]  INFO  PacienteDaoH2:229 Connection SUCCESS
+[2022-03-29 00:00:53]  ERROR PacienteDaoH2:246 org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Violación de indice de Unicidad ó Clave primaria: "PRIMARY KEY ON PUBLIC.PACIENTE(ID) ( /* key:1 */ 1, 'Paola', 'Argento', 34215478, DATE '2022-03-29', CAST(1 AS BIGINT))"
+Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.PACIENTE(ID) ( /* key:1 */ 1, 'Paola', 'Argento', 34215478, DATE '2022-03-29', CAST(1 AS BIGINT))"; SQL statement:
+UPDATE paciente SET id = ?, nombre = ?, apellido = ?, dni = ?, fecha_ingreso = ? [23505-210]
+[2022-03-29 00:02:02]  INFO  PacienteDaoH2:79 Init connection to DB
+[2022-03-29 00:02:02]  INFO  PacienteDaoH2:84 Connection SUCCESS
+[2022-03-29 00:02:02]  INFO  PacienteDaoH2:89 Try execute query
+[2022-03-29 00:02:02]  INFO  PacienteDaoH2:91 Execute query SUCCESS
+[2022-03-29 00:02:02]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-29 00:02:02]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-29 00:02:02]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-29 00:02:02]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=1, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}
+[2022-03-29 00:02:02]  INFO  PacienteDaoH2:110 Se realizó satisfactoriamente la búsqueda del paciente Paciente{id=1, nombre='Jahdai', apellido='Reyes', DNI=95950457, fechaIngreso=2022-03-19, domicilio=Domicilio{id=1, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}}
+[2022-03-29 00:02:02]  INFO  PacienteDaoH2:224 Init connection to DB
+[2022-03-29 00:02:02]  INFO  PacienteDaoH2:229 Connection SUCCESS
+[2022-03-29 00:02:02]  INFO  PacienteDaoH2:239 Try execute Update query
+[2022-03-29 00:02:02]  INFO  PacienteDaoH2:240 Execute Update query SUCCESS 
+[2022-03-29 00:02:17]  INFO  PacienteDaoH2:167 Init connection to DB
+[2022-03-29 00:02:17]  INFO  PacienteDaoH2:172 Connection SUCCESS
+[2022-03-29 00:02:17]  INFO  PacienteDaoH2:176 Try execute query
+[2022-03-29 00:02:17]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-29 00:02:17]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-29 00:02:17]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-29 00:02:17]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=1, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}
+[2022-03-29 00:02:17]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-29 00:02:17]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-29 00:02:17]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-29 00:02:17]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=3, calle='San Luis', numero=3376, localidad='Almagro', provincia='CABA'}
+[2022-03-29 00:02:17]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-29 00:02:17]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-29 00:02:17]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-29 00:02:17]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=4, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}
+[2022-03-29 00:02:17]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-29 00:02:17]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-29 00:02:17]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-29 00:02:17]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=5, calle='San Luis', numero=3376, localidad='Almagro', provincia='CABA'}
+[2022-03-29 00:02:17]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-29 00:02:17]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-29 00:02:17]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-29 00:02:17]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=6, calle='Olivos', numero=1133, localidad='Alberti', provincia='Bs.As'}
+[2022-03-29 00:02:17]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-29 00:02:17]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-29 00:02:17]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-29 00:02:17]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=7, calle='San martin de Cruz', numero=1457, localidad='San Martin', provincia='Tucuman'}
+[2022-03-29 00:02:17]  INFO  PacienteDaoH2:202 Se realizó satisfactoriamente la búsqueda del paciente [Paciente{id=1, nombre='Paola', apellido='Argento', DNI=34215478, fechaIngreso=2022-03-29, domicilio=Domicilio{id=1, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}}, Paciente{id=3, nombre='Paola', apellido='Argento', DNI=34215478, fechaIngreso=2022-03-29, domicilio=Domicilio{id=3, calle='San Luis', numero=3376, localidad='Almagro', provincia='CABA'}}, Paciente{id=4, nombre='Paola', apellido='Argento', DNI=34215478, fechaIngreso=2022-03-29, domicilio=Domicilio{id=4, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}}, Paciente{id=5, nombre='Paola', apellido='Argento', DNI=34215478, fechaIngreso=2022-03-29, domicilio=Domicilio{id=5, calle='San Luis', numero=3376, localidad='Almagro', provincia='CABA'}}, Paciente{id=6, nombre='Paola', apellido='Argento', DNI=34215478, fechaIngreso=2022-03-29, domicilio=Domicilio{id=6, calle='Olivos', numero=1133, localidad='Alberti', provincia='Bs.As'}}, Paciente{id=7, nombre='Paola', apellido='Argento', DNI=34215478, fechaIngreso=2022-03-29, domicilio=Domicilio{id=7, calle='San martin de Cruz', numero=1457, localidad='San Martin', provincia='Tucuman'}}]
+[2022-03-29 00:07:33]  INFO  PacienteDaoH2:167 Init connection to DB
+[2022-03-29 00:07:33]  INFO  PacienteDaoH2:172 Connection SUCCESS
+[2022-03-29 00:07:33]  INFO  PacienteDaoH2:176 Try execute query
+[2022-03-29 00:07:33]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-29 00:07:33]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-29 00:07:33]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-29 00:07:33]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=1, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}
+[2022-03-29 00:07:33]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-29 00:07:33]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-29 00:07:33]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-29 00:07:33]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=3, calle='San Luis', numero=3376, localidad='Almagro', provincia='CABA'}
+[2022-03-29 00:07:33]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-29 00:07:33]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-29 00:07:33]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-29 00:07:33]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=4, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}
+[2022-03-29 00:07:33]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-29 00:07:33]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-29 00:07:33]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-29 00:07:33]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=5, calle='San Luis', numero=3376, localidad='Almagro', provincia='CABA'}
+[2022-03-29 00:07:33]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-29 00:07:33]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-29 00:07:33]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-29 00:07:33]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=6, calle='Olivos', numero=1133, localidad='Alberti', provincia='Bs.As'}
+[2022-03-29 00:07:33]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-29 00:07:33]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-29 00:07:33]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-29 00:07:33]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=7, calle='San martin de Cruz', numero=1457, localidad='San Martin', provincia='Tucuman'}
+[2022-03-29 00:07:33]  INFO  PacienteDaoH2:202 Se realizó satisfactoriamente la búsqueda del paciente [Paciente{id=1, nombre='Paola', apellido='Argento', DNI=34215478, fechaIngreso=2022-03-29, domicilio=Domicilio{id=1, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}}, Paciente{id=3, nombre='Paola', apellido='Argento', DNI=34215478, fechaIngreso=2022-03-29, domicilio=Domicilio{id=3, calle='San Luis', numero=3376, localidad='Almagro', provincia='CABA'}}, Paciente{id=4, nombre='Paola', apellido='Argento', DNI=34215478, fechaIngreso=2022-03-29, domicilio=Domicilio{id=4, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}}, Paciente{id=5, nombre='Paola', apellido='Argento', DNI=34215478, fechaIngreso=2022-03-29, domicilio=Domicilio{id=5, calle='San Luis', numero=3376, localidad='Almagro', provincia='CABA'}}, Paciente{id=6, nombre='Paola', apellido='Argento', DNI=34215478, fechaIngreso=2022-03-29, domicilio=Domicilio{id=6, calle='Olivos', numero=1133, localidad='Alberti', provincia='Bs.As'}}, Paciente{id=7, nombre='Paola', apellido='Argento', DNI=34215478, fechaIngreso=2022-03-29, domicilio=Domicilio{id=7, calle='San martin de Cruz', numero=1457, localidad='San Martin', provincia='Tucuman'}}]
+[2022-03-29 00:08:59]  INFO  PacienteDaoH2:31 Init connection to DB
+[2022-03-29 00:08:59]  INFO  PacienteDaoH2:36 Connection SUCCESS
+[2022-03-29 00:08:59]  INFO  DomicilioDaoH2:25 Init connection to DB
+[2022-03-29 00:08:59]  INFO  DomicilioDaoH2:30 Connection SUCCESS
+[2022-03-29 00:08:59]  INFO  DomicilioDaoH2:41 Try execute Insert query
+[2022-03-29 00:08:59]  INFO  DomicilioDaoH2:47 Execute Insert query SUCCESS Domicilio{id=8, calle='San martin de Cruz', numero=1457, localidad='San Martin', provincia='Tucuman'}
+[2022-03-29 00:08:59]  INFO  PacienteDaoH2:48 Try execute Insert query
+[2022-03-29 00:08:59]  INFO  PacienteDaoH2:56 Insert SUCCESS Paciente{id=8, nombre='Don diego', apellido='De la vega', DNI=45632187, fechaIngreso=Tue Jan 25 21:00:00 ART 2022, domicilio=Domicilio{id=8, calle='San martin de Cruz', numero=1457, localidad='San Martin', provincia='Tucuman'}}
+[2022-03-29 00:09:28]  INFO  PacienteDaoH2:167 Init connection to DB
+[2022-03-29 00:09:28]  INFO  PacienteDaoH2:172 Connection SUCCESS
+[2022-03-29 00:09:28]  INFO  PacienteDaoH2:176 Try execute query
+[2022-03-29 00:09:28]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-29 00:09:28]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-29 00:09:28]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-29 00:09:28]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=1, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}
+[2022-03-29 00:09:28]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-29 00:09:29]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-29 00:09:29]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-29 00:09:29]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=3, calle='San Luis', numero=3376, localidad='Almagro', provincia='CABA'}
+[2022-03-29 00:09:29]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-29 00:09:29]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-29 00:09:29]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-29 00:09:29]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=4, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}
+[2022-03-29 00:09:29]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-29 00:09:29]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-29 00:09:29]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-29 00:09:29]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=5, calle='San Luis', numero=3376, localidad='Almagro', provincia='CABA'}
+[2022-03-29 00:09:29]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-29 00:09:29]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-29 00:09:29]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-29 00:09:29]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=6, calle='Olivos', numero=1133, localidad='Alberti', provincia='Bs.As'}
+[2022-03-29 00:09:29]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-29 00:09:29]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-29 00:09:29]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-29 00:09:29]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=7, calle='San martin de Cruz', numero=1457, localidad='San Martin', provincia='Tucuman'}
+[2022-03-29 00:09:29]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-29 00:09:29]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-29 00:09:29]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-29 00:09:29]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=8, calle='San martin de Cruz', numero=1457, localidad='San Martin', provincia='Tucuman'}
+[2022-03-29 00:09:29]  INFO  PacienteDaoH2:202 Se realizó satisfactoriamente la búsqueda del paciente [Paciente{id=1, nombre='Paola', apellido='Argento', DNI=34215478, fechaIngreso=2022-03-29, domicilio=Domicilio{id=1, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}}, Paciente{id=3, nombre='Paola', apellido='Argento', DNI=34215478, fechaIngreso=2022-03-29, domicilio=Domicilio{id=3, calle='San Luis', numero=3376, localidad='Almagro', provincia='CABA'}}, Paciente{id=4, nombre='Paola', apellido='Argento', DNI=34215478, fechaIngreso=2022-03-29, domicilio=Domicilio{id=4, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}}, Paciente{id=5, nombre='Paola', apellido='Argento', DNI=34215478, fechaIngreso=2022-03-29, domicilio=Domicilio{id=5, calle='San Luis', numero=3376, localidad='Almagro', provincia='CABA'}}, Paciente{id=6, nombre='Paola', apellido='Argento', DNI=34215478, fechaIngreso=2022-03-29, domicilio=Domicilio{id=6, calle='Olivos', numero=1133, localidad='Alberti', provincia='Bs.As'}}, Paciente{id=7, nombre='Paola', apellido='Argento', DNI=34215478, fechaIngreso=2022-03-29, domicilio=Domicilio{id=7, calle='San martin de Cruz', numero=1457, localidad='San Martin', provincia='Tucuman'}}, Paciente{id=8, nombre='Don diego', apellido='De la vega', DNI=45632187, fechaIngreso=2022-01-25, domicilio=Domicilio{id=8, calle='San martin de Cruz', numero=1457, localidad='San Martin', provincia='Tucuman'}}]
+[2022-03-29 00:17:12]  INFO  PacienteDaoH2:79 Init connection to DB
+[2022-03-29 00:17:12]  INFO  PacienteDaoH2:84 Connection SUCCESS
+[2022-03-29 00:17:12]  INFO  PacienteDaoH2:89 Try execute query
+[2022-03-29 00:17:12]  INFO  PacienteDaoH2:91 Execute query SUCCESS
+[2022-03-29 00:17:12]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-29 00:17:12]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-29 00:17:12]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-29 00:17:12]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=1, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}
+[2022-03-29 00:17:12]  INFO  PacienteDaoH2:110 Se realizó satisfactoriamente la búsqueda del paciente Paciente{id=1, nombre='Paola', apellido='Argento', DNI=34215478, fechaIngreso=2022-03-29, domicilio=Domicilio{id=1, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}}
+[2022-03-29 00:21:16]  INFO  PacienteDaoH2:224 Init connection to DB
+[2022-03-29 00:21:17]  INFO  PacienteDaoH2:229 Connection SUCCESS
+[2022-03-29 00:21:17]  INFO  PacienteDaoH2:240 Try execute Update query
+[2022-03-29 00:21:17]  INFO  PacienteDaoH2:241 Execute Update query SUCCESS 
+[2022-03-29 00:21:45]  INFO  PacienteDaoH2:167 Init connection to DB
+[2022-03-29 00:21:45]  INFO  PacienteDaoH2:172 Connection SUCCESS
+[2022-03-29 00:21:45]  INFO  PacienteDaoH2:176 Try execute query
+[2022-03-29 00:21:45]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-29 00:21:45]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-29 00:21:45]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-29 00:21:45]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=1, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}
+[2022-03-29 00:21:45]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-29 00:21:45]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-29 00:21:45]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-29 00:21:45]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=3, calle='San Luis', numero=3376, localidad='Almagro', provincia='CABA'}
+[2022-03-29 00:21:45]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-29 00:21:45]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-29 00:21:45]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-29 00:21:45]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=4, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}
+[2022-03-29 00:21:45]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-29 00:21:45]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-29 00:21:45]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-29 00:21:45]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=5, calle='San Luis', numero=3376, localidad='Almagro', provincia='CABA'}
+[2022-03-29 00:21:45]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-29 00:21:45]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-29 00:21:45]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-29 00:21:45]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=6, calle='Olivos', numero=1133, localidad='Alberti', provincia='Bs.As'}
+[2022-03-29 00:21:45]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-29 00:21:45]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-29 00:21:45]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-29 00:21:45]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=7, calle='San martin de Cruz', numero=1457, localidad='San Martin', provincia='Tucuman'}
+[2022-03-29 00:21:45]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-29 00:21:45]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-29 00:21:45]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-29 00:21:45]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=8, calle='San martin de Cruz', numero=1457, localidad='San Martin', provincia='Tucuman'}
+[2022-03-29 00:21:45]  INFO  PacienteDaoH2:202 Se realizó satisfactoriamente la búsqueda del paciente [Paciente{id=1, nombre='Enrique', apellido='Maynard', DNI=3893946, fechaIngreso=2022-03-29, domicilio=Domicilio{id=1, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}}, Paciente{id=3, nombre='Paola', apellido='Argento', DNI=34215478, fechaIngreso=2022-03-29, domicilio=Domicilio{id=3, calle='San Luis', numero=3376, localidad='Almagro', provincia='CABA'}}, Paciente{id=4, nombre='Paola', apellido='Argento', DNI=34215478, fechaIngreso=2022-03-29, domicilio=Domicilio{id=4, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}}, Paciente{id=5, nombre='Paola', apellido='Argento', DNI=34215478, fechaIngreso=2022-03-29, domicilio=Domicilio{id=5, calle='San Luis', numero=3376, localidad='Almagro', provincia='CABA'}}, Paciente{id=6, nombre='Paola', apellido='Argento', DNI=34215478, fechaIngreso=2022-03-29, domicilio=Domicilio{id=6, calle='Olivos', numero=1133, localidad='Alberti', provincia='Bs.As'}}, Paciente{id=7, nombre='Paola', apellido='Argento', DNI=34215478, fechaIngreso=2022-03-29, domicilio=Domicilio{id=7, calle='San martin de Cruz', numero=1457, localidad='San Martin', provincia='Tucuman'}}, Paciente{id=8, nombre='Don diego', apellido='De la vega', DNI=45632187, fechaIngreso=2022-01-25, domicilio=Domicilio{id=8, calle='San martin de Cruz', numero=1457, localidad='San Martin', provincia='Tucuman'}}]
+[2022-03-29 00:23:30]  INFO  PacienteDaoH2:167 Init connection to DB
+[2022-03-29 00:23:31]  INFO  PacienteDaoH2:172 Connection SUCCESS
+[2022-03-29 00:23:31]  INFO  PacienteDaoH2:176 Try execute query
+[2022-03-29 00:23:31]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-29 00:23:31]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-29 00:23:31]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-29 00:23:31]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=1, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}
+[2022-03-29 00:23:31]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-29 00:23:31]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-29 00:23:31]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-29 00:23:31]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=3, calle='San Luis', numero=3376, localidad='Almagro', provincia='CABA'}
+[2022-03-29 00:23:31]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-29 00:23:31]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-29 00:23:31]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-29 00:23:31]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=4, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}
+[2022-03-29 00:23:31]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-29 00:23:31]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-29 00:23:31]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-29 00:23:31]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=5, calle='San Luis', numero=3376, localidad='Almagro', provincia='CABA'}
+[2022-03-29 00:23:31]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-29 00:23:31]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-29 00:23:31]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-29 00:23:31]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=6, calle='Olivos', numero=1133, localidad='Alberti', provincia='Bs.As'}
+[2022-03-29 00:23:31]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-29 00:23:31]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-29 00:23:31]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-29 00:23:31]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=7, calle='San martin de Cruz', numero=1457, localidad='San Martin', provincia='Tucuman'}
+[2022-03-29 00:23:31]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-29 00:23:31]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-29 00:23:31]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-29 00:23:31]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=8, calle='San martin de Cruz', numero=1457, localidad='San Martin', provincia='Tucuman'}
+[2022-03-29 00:23:31]  INFO  PacienteDaoH2:202 Se realizó satisfactoriamente la búsqueda del paciente [Paciente{id=1, nombre='Enrique', apellido='Maynard', DNI=3893946, fechaIngreso=2022-03-29, domicilio=Domicilio{id=1, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}}, Paciente{id=3, nombre='Paola', apellido='Argento', DNI=34215478, fechaIngreso=2022-03-29, domicilio=Domicilio{id=3, calle='San Luis', numero=3376, localidad='Almagro', provincia='CABA'}}, Paciente{id=4, nombre='Paola', apellido='Argento', DNI=34215478, fechaIngreso=2022-03-29, domicilio=Domicilio{id=4, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}}, Paciente{id=5, nombre='Paola', apellido='Argento', DNI=34215478, fechaIngreso=2022-03-29, domicilio=Domicilio{id=5, calle='San Luis', numero=3376, localidad='Almagro', provincia='CABA'}}, Paciente{id=6, nombre='Paola', apellido='Argento', DNI=34215478, fechaIngreso=2022-03-29, domicilio=Domicilio{id=6, calle='Olivos', numero=1133, localidad='Alberti', provincia='Bs.As'}}, Paciente{id=7, nombre='Paola', apellido='Argento', DNI=34215478, fechaIngreso=2022-03-29, domicilio=Domicilio{id=7, calle='San martin de Cruz', numero=1457, localidad='San Martin', provincia='Tucuman'}}, Paciente{id=8, nombre='Don diego', apellido='De la vega', DNI=45632187, fechaIngreso=2022-01-25, domicilio=Domicilio{id=8, calle='San martin de Cruz', numero=1457, localidad='San Martin', provincia='Tucuman'}}]
+[2022-03-29 00:23:40]  INFO  PacienteDaoH2:167 Init connection to DB
+[2022-03-29 00:23:40]  INFO  PacienteDaoH2:172 Connection SUCCESS
+[2022-03-29 00:23:40]  INFO  PacienteDaoH2:176 Try execute query
+[2022-03-29 00:23:40]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-29 00:23:40]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-29 00:23:40]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-29 00:23:40]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=1, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}
+[2022-03-29 00:23:40]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-29 00:23:40]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-29 00:23:40]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-29 00:23:40]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=3, calle='San Luis', numero=3376, localidad='Almagro', provincia='CABA'}
+[2022-03-29 00:23:40]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-29 00:23:40]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-29 00:23:40]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-29 00:23:40]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=4, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}
+[2022-03-29 00:23:40]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-29 00:23:40]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-29 00:23:40]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-29 00:23:40]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=5, calle='San Luis', numero=3376, localidad='Almagro', provincia='CABA'}
+[2022-03-29 00:23:40]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-29 00:23:40]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-29 00:23:40]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-29 00:23:40]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=6, calle='Olivos', numero=1133, localidad='Alberti', provincia='Bs.As'}
+[2022-03-29 00:23:40]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-29 00:23:40]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-29 00:23:40]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-29 00:23:40]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=7, calle='San martin de Cruz', numero=1457, localidad='San Martin', provincia='Tucuman'}
+[2022-03-29 00:23:40]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-29 00:23:40]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-29 00:23:40]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-29 00:23:40]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=8, calle='San martin de Cruz', numero=1457, localidad='San Martin', provincia='Tucuman'}
+[2022-03-29 00:23:40]  INFO  PacienteDaoH2:202 Se realizó satisfactoriamente la búsqueda del paciente [Paciente{id=1, nombre='Enrique', apellido='Maynard', DNI=3893946, fechaIngreso=2022-03-29, domicilio=Domicilio{id=1, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}}, Paciente{id=3, nombre='Paola', apellido='Argento', DNI=34215478, fechaIngreso=2022-03-29, domicilio=Domicilio{id=3, calle='San Luis', numero=3376, localidad='Almagro', provincia='CABA'}}, Paciente{id=4, nombre='Paola', apellido='Argento', DNI=34215478, fechaIngreso=2022-03-29, domicilio=Domicilio{id=4, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}}, Paciente{id=5, nombre='Paola', apellido='Argento', DNI=34215478, fechaIngreso=2022-03-29, domicilio=Domicilio{id=5, calle='San Luis', numero=3376, localidad='Almagro', provincia='CABA'}}, Paciente{id=6, nombre='Paola', apellido='Argento', DNI=34215478, fechaIngreso=2022-03-29, domicilio=Domicilio{id=6, calle='Olivos', numero=1133, localidad='Alberti', provincia='Bs.As'}}, Paciente{id=7, nombre='Paola', apellido='Argento', DNI=34215478, fechaIngreso=2022-03-29, domicilio=Domicilio{id=7, calle='San martin de Cruz', numero=1457, localidad='San Martin', provincia='Tucuman'}}, Paciente{id=8, nombre='Don diego', apellido='De la vega', DNI=45632187, fechaIngreso=2022-01-25, domicilio=Domicilio{id=8, calle='San martin de Cruz', numero=1457, localidad='San Martin', provincia='Tucuman'}}]
+[2022-03-29 00:24:01]  INFO  PacienteDaoH2:79 Init connection to DB
+[2022-03-29 00:24:01]  INFO  PacienteDaoH2:84 Connection SUCCESS
+[2022-03-29 00:24:01]  INFO  PacienteDaoH2:89 Try execute query
+[2022-03-29 00:24:01]  INFO  PacienteDaoH2:91 Execute query SUCCESS
+[2022-03-29 00:24:01]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-29 00:24:01]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-29 00:24:01]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-29 00:24:01]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=3, calle='San Luis', numero=3376, localidad='Almagro', provincia='CABA'}
+[2022-03-29 00:24:01]  INFO  PacienteDaoH2:110 Se realizó satisfactoriamente la búsqueda del paciente Paciente{id=3, nombre='Paola', apellido='Argento', DNI=34215478, fechaIngreso=2022-03-29, domicilio=Domicilio{id=3, calle='San Luis', numero=3376, localidad='Almagro', provincia='CABA'}}
+[2022-03-29 00:39:48]  INFO  PacienteDaoH2:167 Init connection to DB
+[2022-03-29 00:39:48]  INFO  PacienteDaoH2:172 Connection SUCCESS
+[2022-03-29 00:39:48]  INFO  PacienteDaoH2:176 Try execute query
+[2022-03-29 00:39:48]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-29 00:39:48]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-29 00:39:48]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-29 00:39:48]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=1, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}
+[2022-03-29 00:39:48]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-29 00:39:48]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-29 00:39:48]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-29 00:39:48]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=3, calle='San Luis', numero=3376, localidad='Almagro', provincia='CABA'}
+[2022-03-29 00:39:48]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-29 00:39:48]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-29 00:39:48]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-29 00:39:48]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=4, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}
+[2022-03-29 00:39:48]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-29 00:39:48]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-29 00:39:48]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-29 00:39:48]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=5, calle='San Luis', numero=3376, localidad='Almagro', provincia='CABA'}
+[2022-03-29 00:39:48]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-29 00:39:48]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-29 00:39:48]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-29 00:39:48]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=6, calle='Olivos', numero=1133, localidad='Alberti', provincia='Bs.As'}
+[2022-03-29 00:39:48]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-29 00:39:48]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-29 00:39:48]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-29 00:39:48]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=7, calle='San martin de Cruz', numero=1457, localidad='San Martin', provincia='Tucuman'}
+[2022-03-29 00:39:48]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-29 00:39:48]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-29 00:39:48]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-29 00:39:48]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=8, calle='San martin de Cruz', numero=1457, localidad='San Martin', provincia='Tucuman'}
+[2022-03-29 00:39:48]  INFO  PacienteDaoH2:202 Se realizó satisfactoriamente la búsqueda del paciente [Paciente{id=1, nombre='Enrique', apellido='Maynard', DNI=3893946, fechaIngreso=2022-03-29, domicilio=Domicilio{id=1, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}}, Paciente{id=3, nombre='Paola', apellido='Argento', DNI=34215478, fechaIngreso=2022-03-29, domicilio=Domicilio{id=3, calle='San Luis', numero=3376, localidad='Almagro', provincia='CABA'}}, Paciente{id=4, nombre='Paola', apellido='Argento', DNI=34215478, fechaIngreso=2022-03-29, domicilio=Domicilio{id=4, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}}, Paciente{id=5, nombre='Paola', apellido='Argento', DNI=34215478, fechaIngreso=2022-03-29, domicilio=Domicilio{id=5, calle='San Luis', numero=3376, localidad='Almagro', provincia='CABA'}}, Paciente{id=6, nombre='Paola', apellido='Argento', DNI=34215478, fechaIngreso=2022-03-29, domicilio=Domicilio{id=6, calle='Olivos', numero=1133, localidad='Alberti', provincia='Bs.As'}}, Paciente{id=7, nombre='Paola', apellido='Argento', DNI=34215478, fechaIngreso=2022-03-29, domicilio=Domicilio{id=7, calle='San martin de Cruz', numero=1457, localidad='San Martin', provincia='Tucuman'}}, Paciente{id=8, nombre='Don diego', apellido='De la vega', DNI=45632187, fechaIngreso=2022-01-25, domicilio=Domicilio{id=8, calle='San martin de Cruz', numero=1457, localidad='San Martin', provincia='Tucuman'}}]
+[2022-03-29 00:40:15]  INFO  PacienteDaoH2:79 Init connection to DB
+[2022-03-29 00:40:15]  INFO  PacienteDaoH2:84 Connection SUCCESS
+[2022-03-29 00:40:15]  INFO  PacienteDaoH2:89 Try execute query
+[2022-03-29 00:40:15]  INFO  PacienteDaoH2:91 Execute query SUCCESS
+[2022-03-29 00:40:15]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-29 00:40:15]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-29 00:40:15]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-29 00:40:15]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=3, calle='San Luis', numero=3376, localidad='Almagro', provincia='CABA'}
+[2022-03-29 00:40:15]  INFO  PacienteDaoH2:110 Se realizó satisfactoriamente la búsqueda del paciente Paciente{id=3, nombre='Paola', apellido='Argento', DNI=34215478, fechaIngreso=2022-03-29, domicilio=Domicilio{id=3, calle='San Luis', numero=3376, localidad='Almagro', provincia='CABA'}}
+[2022-03-29 00:40:36]  INFO  PacienteDaoH2:79 Init connection to DB
+[2022-03-29 00:40:36]  INFO  PacienteDaoH2:84 Connection SUCCESS
+[2022-03-29 00:40:36]  INFO  PacienteDaoH2:89 Try execute query
+[2022-03-29 00:40:36]  INFO  PacienteDaoH2:91 Execute query SUCCESS
+[2022-03-29 00:40:36]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-29 00:40:36]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-29 00:40:36]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-29 00:40:36]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=3, calle='San Luis', numero=3376, localidad='Almagro', provincia='CABA'}
+[2022-03-29 00:40:36]  INFO  PacienteDaoH2:110 Se realizó satisfactoriamente la búsqueda del paciente Paciente{id=3, nombre='Paola', apellido='Argento', DNI=34215478, fechaIngreso=2022-03-29, domicilio=Domicilio{id=3, calle='San Luis', numero=3376, localidad='Almagro', provincia='CABA'}}
+[2022-03-29 00:40:36]  INFO  PacienteDaoH2:224 Init connection to DB
+[2022-03-29 00:40:36]  INFO  PacienteDaoH2:229 Connection SUCCESS
+[2022-03-29 00:40:36]  INFO  PacienteDaoH2:240 Try execute Update query
+[2022-03-29 00:40:36]  INFO  PacienteDaoH2:241 Execute Update query SUCCESS 
+[2022-03-29 00:40:56]  INFO  PacienteDaoH2:167 Init connection to DB
+[2022-03-29 00:40:56]  INFO  PacienteDaoH2:172 Connection SUCCESS
+[2022-03-29 00:40:56]  INFO  PacienteDaoH2:176 Try execute query
+[2022-03-29 00:40:56]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-29 00:40:56]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-29 00:40:56]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-29 00:40:56]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=1, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}
+[2022-03-29 00:40:56]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-29 00:40:56]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-29 00:40:56]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-29 00:40:56]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=3, calle='San Luis', numero=3376, localidad='Almagro', provincia='CABA'}
+[2022-03-29 00:40:56]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-29 00:40:56]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-29 00:40:56]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-29 00:40:56]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=4, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}
+[2022-03-29 00:40:56]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-29 00:40:56]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-29 00:40:56]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-29 00:40:56]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=5, calle='San Luis', numero=3376, localidad='Almagro', provincia='CABA'}
+[2022-03-29 00:40:56]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-29 00:40:56]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-29 00:40:56]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-29 00:40:56]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=6, calle='Olivos', numero=1133, localidad='Alberti', provincia='Bs.As'}
+[2022-03-29 00:40:56]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-29 00:40:56]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-29 00:40:56]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-29 00:40:56]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=7, calle='San martin de Cruz', numero=1457, localidad='San Martin', provincia='Tucuman'}
+[2022-03-29 00:40:56]  INFO  DomicilioDaoH2:70 Init connection to DB
+[2022-03-29 00:40:56]  INFO  DomicilioDaoH2:75 Connection SUCCESS
+[2022-03-29 00:40:56]  INFO  DomicilioDaoH2:82 Try execute Searching query
+[2022-03-29 00:40:56]  INFO  DomicilioDaoH2:97 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=8, calle='San martin de Cruz', numero=1457, localidad='San Martin', provincia='Tucuman'}
+[2022-03-29 00:40:56]  INFO  PacienteDaoH2:202 Se realizó satisfactoriamente la búsqueda del paciente [Paciente{id=1, nombre='Enrique', apellido='Maynard', DNI=3893946, fechaIngreso=2022-03-29, domicilio=Domicilio{id=1, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}}, Paciente{id=3, nombre='David', apellido='Moriello', DNI=38939746, fechaIngreso=2021-12-31, domicilio=Domicilio{id=3, calle='San Luis', numero=3376, localidad='Almagro', provincia='CABA'}}, Paciente{id=4, nombre='Paola', apellido='Argento', DNI=34215478, fechaIngreso=2022-03-29, domicilio=Domicilio{id=4, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}}, Paciente{id=5, nombre='Paola', apellido='Argento', DNI=34215478, fechaIngreso=2022-03-29, domicilio=Domicilio{id=5, calle='San Luis', numero=3376, localidad='Almagro', provincia='CABA'}}, Paciente{id=6, nombre='Paola', apellido='Argento', DNI=34215478, fechaIngreso=2022-03-29, domicilio=Domicilio{id=6, calle='Olivos', numero=1133, localidad='Alberti', provincia='Bs.As'}}, Paciente{id=7, nombre='Paola', apellido='Argento', DNI=34215478, fechaIngreso=2022-03-29, domicilio=Domicilio{id=7, calle='San martin de Cruz', numero=1457, localidad='San Martin', provincia='Tucuman'}}, Paciente{id=8, nombre='Don diego', apellido='De la vega', DNI=45632187, fechaIngreso=2022-01-25, domicilio=Domicilio{id=8, calle='San martin de Cruz', numero=1457, localidad='San Martin', provincia='Tucuman'}}]

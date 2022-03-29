@@ -180,7 +180,7 @@ public class DomicilioDaoH2 implements IDao<Domicilio> {
                 domicilio.setProvincia(provinciaDomicilio);
 
                 domicilios.add(domicilio);
-                logger.info("Se realizó satisfactoriamente la búsqueda del domicilio " + domicilio);
+                logger.info("Se realizó satisfactoriamente la búsqueda del domicilio ");
             }
             preparedStatement.close();
 
@@ -192,5 +192,44 @@ public class DomicilioDaoH2 implements IDao<Domicilio> {
             e.printStackTrace();
         }
         return domicilios;
+    }
+
+    @Override
+    public Domicilio modificar(Domicilio domicilio) {
+
+        Connection connection= null;
+        PreparedStatement preparedStatement=null;
+
+        try {
+
+            logger.info("Init connection to DB");
+
+            Class.forName(DB_JDBC_DRIVER);
+            connection = DriverManager.getConnection(DB_URL,DB_USER,DB_PASSWORD);
+
+            logger.info("Connection SUCCESS");
+
+            preparedStatement = connection.prepareStatement("UPDATE domicilio SET calle = ?, numero = ?, localidad = ?, provincia = ? WHERE ID = ?");
+            preparedStatement.setString(1,domicilio.getCalle());
+            preparedStatement.setInt(2,domicilio.getNumero());
+            preparedStatement.setString(3,domicilio.getLocalidad());
+            preparedStatement.setString(4,domicilio.getProvincia());
+            preparedStatement.setInt(5,domicilio.getId());
+
+            preparedStatement.executeUpdate();
+
+            logger.info("Try execute Update query");
+            logger.info("Execute Update query SUCCESS " );
+            preparedStatement.close();
+
+        }catch (SQLException | ClassNotFoundException throwables) {
+            throwables.printStackTrace();
+            logger.error(throwables);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        return domicilio;
+
     }
 }

@@ -4,6 +4,8 @@ package com.example.com.trabajointegrador.controller;
 import com.example.com.trabajointegrador.dao.PacienteDaoH2;
 import com.example.com.trabajointegrador.entidades.Paciente;
 import com.example.com.trabajointegrador.servicios.PacienteService;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
@@ -36,12 +38,33 @@ public class PacienteController {
         pacienteService.setPacienteIDao(new PacienteDaoH2());
         return pacienteService.buscarTodosPacientes();
     }
-
-    @DeleteMapping("eliminar/{userId}")
-    public void eliminarPaciente(@PathVariable int userId){
+    @DeleteMapping("eliminar/{id}")
+    public ResponseEntity eliminar(@PathVariable int id){
         pacienteService.setPacienteIDao(new PacienteDaoH2());
-        pacienteService.eliminarPaciente(userId);
+        ResponseEntity response = null;
+        if (pacienteService.buscarPaciente(id) == null){
+            response = new ResponseEntity(HttpStatus.NOT_FOUND);
+        }else{
+            pacienteService.eliminarPaciente(id);
+            response = new ResponseEntity(HttpStatus.NO_CONTENT);
+        }
+        return response;
     }
 
+    @PutMapping("/actualizar")
+    public ResponseEntity<Paciente> actualizar(@RequestBody Paciente paciente){
+            pacienteService.setPacienteIDao(new PacienteDaoH2());
+            ResponseEntity response = null;
+            if (pacienteService.buscarPaciente(paciente.getId())== null ){
+                response = new ResponseEntity(HttpStatus.NOT_FOUND);
+            }else{
+                pacienteService.actualizarPaciente(paciente);
+                response = new ResponseEntity(HttpStatus.OK);
+            }
+            return response;
+
+    }
 
 }
+
+

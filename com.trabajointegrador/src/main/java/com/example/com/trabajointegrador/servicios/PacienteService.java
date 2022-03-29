@@ -3,6 +3,7 @@ package com.example.com.trabajointegrador.servicios;
 
 
 import com.example.com.trabajointegrador.dao.IDao;
+import com.example.com.trabajointegrador.entidades.Odontologo;
 import com.example.com.trabajointegrador.entidades.Paciente;
 import org.springframework.stereotype.Service;
 
@@ -34,6 +35,10 @@ public class PacienteService {
 
     public List<Paciente> buscarTodosPacientes(){
         return this.pacienteIDao.buscarTodos();
+    }
+
+    public Paciente actualizarPaciente(Paciente paciente){
+        return this.pacienteIDao.modificar(paciente);
     }
 
 }

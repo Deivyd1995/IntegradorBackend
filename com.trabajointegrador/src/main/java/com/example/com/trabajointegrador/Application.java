@@ -3,6 +3,7 @@ package com.example.com.trabajointegrador;
 import com.example.com.trabajointegrador.dao.OdontologoDaoH2;
 import com.example.com.trabajointegrador.dao.PacienteDaoH2;
 import com.example.com.trabajointegrador.dao.TurnosDaoH2;
+import com.example.com.trabajointegrador.entidades.Domicilio;
 import com.example.com.trabajointegrador.entidades.Odontologo;
 import com.example.com.trabajointegrador.entidades.Paciente;
 import com.example.com.trabajointegrador.entidades.Turno;
@@ -28,12 +29,21 @@ public class Application {
 	    turnoService.setTurnoIDao(new TurnosDaoH2());
 
 
+		Paciente paciente = new Paciente();
+		paciente.setId(1);
+		paciente.setNombre("Enrique");
+		paciente.setApellido("Maynard");
+		paciente.setDNI(3893946);
+		paciente.setFechaIngreso(new Date());
 
-		//Turno turno1 = new Turno(pacienteService.buscarPaciente(1),odontologoService.buscarOdontologo(1),new Date());
-		//turnoService.registrarTurno(turno1);
 
-		//pacienteService.buscarPaciente(1);
-		//turnoService.buscarTurno(1);
+
+		//pacienteService.actualizarPaciente(paciente);
+		pacienteService.buscarTodosPacientes();
+
+
+
+
 
 	}
 }

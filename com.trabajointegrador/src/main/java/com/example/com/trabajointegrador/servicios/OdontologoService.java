@@ -34,4 +34,8 @@ public class OdontologoService {
         return this.odontologoIDao.buscarTodos();
     }
 
+    public Odontologo actualizarOdontologo(Odontologo odontologo){
+        return this.odontologoIDao.modificar(odontologo);
+    }
+
 }

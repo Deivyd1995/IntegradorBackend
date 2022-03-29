@@ -212,4 +212,42 @@ public class PacienteDaoH2 implements IDao<Paciente>{
 
         return pacientes;
     }
+
+    @Override
+    public Paciente modificar(Paciente paciente) {
+
+        Connection connection= null;
+        PreparedStatement preparedStatement=null;
+
+        try {
+
+            logger.info("Init connection to DB");
+
+            Class.forName(DB_JDBC_DRIVER);
+            connection = DriverManager.getConnection(DB_URL,DB_USER,DB_PASSWORD);
+
+            logger.info("Connection SUCCESS");
+
+            preparedStatement = connection.prepareStatement("UPDATE paciente SET nombre = ?, apellido = ?, dni = ?, fecha_ingreso = ? WHERE ID = ?");
+            preparedStatement.setString(1,paciente.getNombre());
+            preparedStatement.setString(2, paciente.getApellido());
+            preparedStatement.setInt(3,paciente.getDNI());
+            preparedStatement.setDate(4, Util.utilDateToSqlDate(paciente.getFechaIngreso()));
+            preparedStatement.setInt(5,paciente.getId());
+
+            preparedStatement.executeUpdate();
+
+            logger.info("Try execute Update query");
+            logger.info("Execute Update query SUCCESS ");
+            preparedStatement.close();
+
+        }catch (SQLException | ClassNotFoundException throwables) {
+            throwables.printStackTrace();
+            logger.error(throwables);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        return paciente;
+    }
 }

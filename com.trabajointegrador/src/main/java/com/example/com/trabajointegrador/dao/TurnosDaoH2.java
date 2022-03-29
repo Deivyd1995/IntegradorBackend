@@ -201,4 +201,40 @@ public class TurnosDaoH2 implements IDao<Turno>{
 
         return turnos;
     }
+
+    @Override
+    public Turno modificar(Turno turno) {
+        Connection connection= null;
+        PreparedStatement preparedStatement=null;
+
+        try {
+
+            logger.info("Init connection to DB");
+
+            Class.forName(DB_JDBC_DRIVER);
+            connection = DriverManager.getConnection(DB_URL,DB_USER,DB_PASSWORD);
+
+            logger.info("Connection SUCCESS");
+
+            preparedStatement = connection.prepareStatement("UPDATE turno SET paciente_id = ?, odontologo_id = ?, fecha_turno = ? WHERE ID = ?");
+            preparedStatement.setInt(1,turno.getPaciente().getId());
+            preparedStatement.setInt(2,turno.getOdontologo().getId());
+            preparedStatement.setDate(3, Util.utilDateToSqlDate(turno.getFechayHoraTurno()));
+            preparedStatement.setInt(4,turno.getId());
+
+            preparedStatement.executeUpdate();
+
+            logger.info("Try execute Update query");
+            logger.info("Execute Update query SUCCESS " );
+            preparedStatement.close();
+
+        }catch (SQLException | ClassNotFoundException throwables) {
+            throwables.printStackTrace();
+            logger.error(throwables);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        return turno;
+    }
 }

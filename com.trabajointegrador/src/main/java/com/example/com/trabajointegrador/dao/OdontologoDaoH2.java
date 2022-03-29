@@ -189,4 +189,42 @@ public class OdontologoDaoH2 implements IDao<Odontologo> {
 
         return odontologos;
     }
+
+    @Override
+    public Odontologo modificar(Odontologo odontologo) {
+        Connection connection= null;
+        PreparedStatement preparedStatement=null;
+
+        try {
+
+            logger.info("Init connection to DB");
+
+            Class.forName(DB_JDBC_DRIVER);
+            connection = DriverManager.getConnection(DB_URL,DB_USER,DB_PASSWORD);
+
+            logger.info("Connection SUCCESS");
+
+            preparedStatement = connection.prepareStatement("UPDATE odontologo SET numero_matricula = ?, nombre = ?, apellido = ? WHERE ID = ?");
+            preparedStatement.setInt(1,odontologo.getNumeroMatricula());
+            preparedStatement.setString(2,odontologo.getNombre());
+            preparedStatement.setString(3,odontologo.getApellido());
+            preparedStatement.setInt(4,odontologo.getId());
+
+            preparedStatement.executeUpdate();
+
+            logger.info("Try execute Update query");
+            logger.info("Execute Update query SUCCESS ");
+            preparedStatement.close();
+
+        }catch (SQLException | ClassNotFoundException throwables) {
+            throwables.printStackTrace();
+            logger.error(throwables);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        return odontologo;
+
+    }
 }
+
