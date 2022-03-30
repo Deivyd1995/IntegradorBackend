@@ -1,4 +1,4 @@
-package com.example.com.trabajointegrador.dao;
+package com.example.com.trabajointegrador.repository;
 
 
 import com.example.com.trabajointegrador.entidades.Odontologo;

@@ -1,7 +1,6 @@
 package com.example.com.trabajointegrador.servicios;
 
-import com.example.com.trabajointegrador.dao.IDao;
-import com.example.com.trabajointegrador.entidades.Odontologo;
+import com.example.com.trabajointegrador.repository.IDao;
 import com.example.com.trabajointegrador.entidades.Turno;
 import org.springframework.stereotype.Service;
 

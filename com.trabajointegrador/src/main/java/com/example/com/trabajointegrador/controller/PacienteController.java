@@ -1,12 +1,11 @@
 package com.example.com.trabajointegrador.controller;
 
 
-import com.example.com.trabajointegrador.dao.PacienteDaoH2;
+import com.example.com.trabajointegrador.repository.PacienteDaoH2;
 import com.example.com.trabajointegrador.entidades.Paciente;
 import com.example.com.trabajointegrador.servicios.PacienteService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

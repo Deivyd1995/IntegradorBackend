@@ -1,4 +1,4 @@
-package com.example.com.trabajointegrador.dao;
+package com.example.com.trabajointegrador.repository;
 
 import java.util.List;
 
