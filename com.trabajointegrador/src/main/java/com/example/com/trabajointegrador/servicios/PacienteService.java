@@ -3,7 +3,7 @@ package com.example.com.trabajointegrador.servicios;
 
 
 import com.example.com.trabajointegrador.repository.IDao;
-import com.example.com.trabajointegrador.entidades.Paciente;
+import com.example.com.trabajointegrador.model.Paciente;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

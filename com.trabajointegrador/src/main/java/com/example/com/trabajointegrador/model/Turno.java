@@ -1,7 +1,9 @@
-package com.example.com.trabajointegrador.entidades;
+package com.example.com.trabajointegrador.model;
 
+import javax.persistence.Entity;
 import java.util.Date;
 
+@Entity
 public class Turno {
 
     private int id;

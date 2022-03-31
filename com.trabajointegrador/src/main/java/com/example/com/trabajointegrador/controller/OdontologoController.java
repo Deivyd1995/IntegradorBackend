@@ -1,11 +1,8 @@
 package com.example.com.trabajointegrador.controller;
 
 
-import com.example.com.trabajointegrador.entidades.Odontologo;
-import com.example.com.trabajointegrador.entidades.Paciente;
-import com.example.com.trabajointegrador.entidades.Turno;
+import com.example.com.trabajointegrador.model.Odontologo;
 import com.example.com.trabajointegrador.repository.OdontologoDaoH2;
-import com.example.com.trabajointegrador.repository.TurnosDaoH2;
 import com.example.com.trabajointegrador.servicios.OdontologoService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

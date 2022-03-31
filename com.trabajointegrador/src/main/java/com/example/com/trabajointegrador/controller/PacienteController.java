@@ -2,7 +2,7 @@ package com.example.com.trabajointegrador.controller;
 
 
 import com.example.com.trabajointegrador.repository.PacienteDaoH2;
-import com.example.com.trabajointegrador.entidades.Paciente;
+import com.example.com.trabajointegrador.model.Paciente;
 import com.example.com.trabajointegrador.servicios.PacienteService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -1,12 +1,14 @@
 package com.example.com.trabajointegrador.repository;
 
-import com.example.com.trabajointegrador.entidades.Domicilio;
+import com.example.com.trabajointegrador.model.Domicilio;
 import org.apache.log4j.Logger;
+import org.springframework.stereotype.Repository;
 
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
+@Repository
 public class DomicilioDaoH2 implements IDao<Domicilio> {
 
     private final static String DB_JDBC_DRIVER = "org.h2.Driver";

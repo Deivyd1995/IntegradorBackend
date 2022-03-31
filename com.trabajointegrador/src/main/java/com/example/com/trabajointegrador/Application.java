@@ -3,7 +3,7 @@ package com.example.com.trabajointegrador;
 import com.example.com.trabajointegrador.repository.OdontologoDaoH2;
 import com.example.com.trabajointegrador.repository.PacienteDaoH2;
 import com.example.com.trabajointegrador.repository.TurnosDaoH2;
-import com.example.com.trabajointegrador.entidades.Paciente;
+import com.example.com.trabajointegrador.model.Paciente;
 import com.example.com.trabajointegrador.servicios.OdontologoService;
 import com.example.com.trabajointegrador.servicios.PacienteService;
 import com.example.com.trabajointegrador.servicios.TurnoService;

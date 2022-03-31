@@ -1,15 +1,17 @@
 package com.example.com.trabajointegrador.repository;
 
-import com.example.com.trabajointegrador.entidades.Odontologo;
-import com.example.com.trabajointegrador.entidades.Paciente;
-import com.example.com.trabajointegrador.entidades.Turno;
+import com.example.com.trabajointegrador.model.Odontologo;
+import com.example.com.trabajointegrador.model.Paciente;
+import com.example.com.trabajointegrador.model.Turno;
 import com.example.com.trabajointegrador.util.Util;
 import org.apache.log4j.Logger;
+import org.springframework.stereotype.Repository;
 
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
+@Repository
 public class TurnosDaoH2 implements IDao<Turno>{
 
     private final static String DB_JDBC_DRIVER = "org.h2.Driver";

@@ -1,13 +1,15 @@
 package com.example.com.trabajointegrador.repository;
 
 
-import com.example.com.trabajointegrador.entidades.Odontologo;
+import com.example.com.trabajointegrador.model.Odontologo;
 import org.apache.log4j.Logger;
+import org.springframework.stereotype.Repository;
 
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
+@Repository
 public class OdontologoDaoH2 implements IDao<Odontologo> {
 
     private final static String DB_JDBC_DRIVER = "org.h2.Driver";

@@ -1,5 +1,8 @@
-package com.example.com.trabajointegrador.entidades;
+package com.example.com.trabajointegrador.model;
 
+import javax.persistence.Entity;
+
+@Entity
 public class Domicilio{
 
     //Esto es un ensayo de commit

@@ -1,9 +1,8 @@
 package com.example.com.trabajointegrador.controller;
 
 
-import com.example.com.trabajointegrador.entidades.Paciente;
-import com.example.com.trabajointegrador.entidades.Turno;
-import com.example.com.trabajointegrador.repository.PacienteDaoH2;
+import com.example.com.trabajointegrador.model.Paciente;
+import com.example.com.trabajointegrador.model.Turno;
 import com.example.com.trabajointegrador.repository.TurnosDaoH2;
 import com.example.com.trabajointegrador.servicios.TurnoService;
 import org.springframework.http.HttpStatus;
