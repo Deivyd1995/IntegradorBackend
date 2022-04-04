@@ -2,9 +2,10 @@ package DH.Clinica.controller;
 
 
 
-import DH.Clinica.model.Odontologo;
+import DH.Clinica.entity.Odontologo;
 import DH.Clinica.repository.OdontologoDaoH2;
 import DH.Clinica.servicios.OdontologoService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -15,7 +16,8 @@ import java.util.List;
 @RequestMapping("/odontologos")
 public class OdontologoController {
 
-    OdontologoService odontologoService = new OdontologoService();
+    @Autowired
+    OdontologoService odontologoService;
 
     @GetMapping("/id/{turnoId}")
     public Odontologo getTurno(@PathVariable int odontologoId){

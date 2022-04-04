@@ -1,7 +1,7 @@
 package DH.Clinica.repository;
 
 
-import DH.Clinica.model.Domicilio;
+import DH.Clinica.entity.Domicilio;
 import org.apache.log4j.Logger;
 import org.springframework.stereotype.Repository;
 

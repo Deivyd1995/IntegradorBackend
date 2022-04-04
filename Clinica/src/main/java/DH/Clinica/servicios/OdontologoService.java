@@ -1,7 +1,7 @@
 package DH.Clinica.servicios;
 
 
-import DH.Clinica.model.Odontologo;
+import DH.Clinica.entity.Odontologo;
 import DH.Clinica.repository.IDao;
 import org.springframework.stereotype.Service;
 

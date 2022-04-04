@@ -2,10 +2,16 @@ package DH.Clinica.controller;
 
 
 
-import DH.Clinica.model.Paciente;
-import DH.Clinica.model.Turno;
+import DH.Clinica.entity.Odontologo;
+import DH.Clinica.entity.Paciente;
+import DH.Clinica.entity.Turno;
+import DH.Clinica.repository.OdontologoDaoH2;
+import DH.Clinica.repository.PacienteDaoH2;
 import DH.Clinica.repository.TurnosDaoH2;
+import DH.Clinica.servicios.OdontologoService;
+import DH.Clinica.servicios.PacienteService;
 import DH.Clinica.servicios.TurnoService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -16,7 +22,10 @@ import java.util.List;
 @RequestMapping("/turnos")
 public class TurnoController {
 
-    private TurnoService turnoService = new TurnoService();
+    @Autowired
+   TurnoService turnoService;
+    OdontologoService odontologoService;
+    PacienteService pacienteService;
 
     @GetMapping("/id/{turnoId}")
     public Turno getTurno(@PathVariable int turnoId){
@@ -32,9 +41,22 @@ public class TurnoController {
     }
 
     @PostMapping("/registrar")
-    public Turno guardar(@RequestBody Turno turno){
+    public ResponseEntity<Turno> registrarTurno(@RequestBody Turno turno){
         turnoService.setTurnoIDao(new TurnosDaoH2());
-        return turnoService.registrarTurno(turno);
+        pacienteService.setPacienteIDao(new PacienteDaoH2());
+        odontologoService.setOdontologoIDao(new OdontologoDaoH2());
+        ResponseEntity<Turno> respuesta;
+        //preguntar si es un paciente correcto y un odontologo correcto
+        Paciente pacienteBus=pacienteService.buscarPaciente(turno.getPaciente().getId());
+        Odontologo odontologoBus=odontologoService.buscarOdontologo(turno.getOdontologo().getId());
+
+        if (pacienteBus!=null && odontologoBus!=null){
+            respuesta= ResponseEntity.ok(turnoService.registrarTurno(turno));
+        }
+        else{
+            respuesta=ResponseEntity.status(HttpStatus.BAD_REQUEST).build();
+        }
+        return respuesta;
     }
 
     @DeleteMapping("eliminar/{id}")

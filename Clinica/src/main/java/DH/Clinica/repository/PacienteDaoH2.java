@@ -2,8 +2,9 @@ package DH.Clinica.repository;
 
 
 
-import DH.Clinica.model.Domicilio;
-import DH.Clinica.model.Paciente;
+import DH.Clinica.entity.Domicilio;
+import DH.Clinica.entity.Paciente;
+import DH.Clinica.servicios.PacienteService;
 import DH.Clinica.util.Util;
 import org.apache.log4j.Logger;
 import org.springframework.stereotype.Repository;
@@ -133,6 +134,11 @@ public class PacienteDaoH2 implements IDao<Paciente>{
         try {
             logger.info("Init connection to DB");
 
+            PacienteService pacienteService = new PacienteService();
+            pacienteService.setPacienteIDao(new PacienteDaoH2());
+            Paciente paciente = pacienteService.buscarPaciente(id);
+            domicilioDaoH2.eliminar(paciente.getDomicilio().getId());
+
             Class.forName(DB_JDBC_DRIVER);
             connection= DriverManager.getConnection(DB_URL,DB_USER,DB_PASSWORD);
 
@@ -225,6 +231,8 @@ public class PacienteDaoH2 implements IDao<Paciente>{
         try {
 
             logger.info("Init connection to DB");
+
+            domicilioDaoH2.modificar(paciente.getDomicilio());
 
             Class.forName(DB_JDBC_DRIVER);
             connection = DriverManager.getConnection(DB_URL,DB_USER,DB_PASSWORD);

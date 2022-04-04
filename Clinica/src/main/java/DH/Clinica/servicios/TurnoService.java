@@ -1,7 +1,7 @@
 package DH.Clinica.servicios;
 
 
-import DH.Clinica.model.Turno;
+import DH.Clinica.entity.Turno;
 import DH.Clinica.repository.IDao;
 import org.springframework.stereotype.Service;
 

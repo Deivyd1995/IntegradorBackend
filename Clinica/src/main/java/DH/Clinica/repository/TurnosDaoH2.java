@@ -1,9 +1,9 @@
 package DH.Clinica.repository;
 
 
-import DH.Clinica.model.Odontologo;
-import DH.Clinica.model.Paciente;
-import DH.Clinica.model.Turno;
+import DH.Clinica.entity.Odontologo;
+import DH.Clinica.entity.Paciente;
+import DH.Clinica.entity.Turno;
 import DH.Clinica.util.Util;
 import org.apache.log4j.Logger;
 import org.springframework.stereotype.Repository;

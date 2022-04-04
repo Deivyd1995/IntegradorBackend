@@ -2,9 +2,10 @@ package DH.Clinica.controller;
 
 
 
-import DH.Clinica.model.Paciente;
+import DH.Clinica.entity.Paciente;
 import DH.Clinica.repository.PacienteDaoH2;
 import DH.Clinica.servicios.PacienteService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -17,8 +18,8 @@ import java.util.List;
 public class PacienteController {
 
 
-
-   private PacienteService pacienteService = new PacienteService();
+    @Autowired
+    PacienteService pacienteService;
 
     @GetMapping("/id/{userId}")
     public Paciente getPaciente(@PathVariable int userId){

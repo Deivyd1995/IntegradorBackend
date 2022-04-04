@@ -2,7 +2,7 @@ package DH.Clinica.servicios;
 
 
 
-import DH.Clinica.model.Paciente;
+import DH.Clinica.entity.Paciente;
 import DH.Clinica.repository.IDao;
 import org.springframework.stereotype.Service;
 
