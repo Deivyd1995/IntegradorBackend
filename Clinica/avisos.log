@@ -1,1 +1,174 @@
 
+[2022-04-04 13:51:21]  INFO  OdontologoDaoH2:156 Init connection to DB
+[2022-04-04 13:51:21]  INFO  OdontologoDaoH2:161 Connection SUCCESS
+[2022-04-04 13:51:22]  INFO  OdontologoDaoH2:167 Try execute Searching query
+[2022-04-04 13:51:22]  INFO  OdontologoDaoH2:182 Se realizó satisfactoriamente la búsqueda del odontologo Odontologo{id=1, numeroDeMatricula=1, nombre='Mauri', apellido='Boye'}
+[2022-04-04 13:51:22]  INFO  OdontologoDaoH2:182 Se realizó satisfactoriamente la búsqueda del odontologo Odontologo{id=2, numeroDeMatricula=2, nombre='Zoe', apellido='Tira'}
+[2022-04-04 13:51:22]  INFO  OdontologoDaoH2:182 Se realizó satisfactoriamente la búsqueda del odontologo Odontologo{id=3, numeroDeMatricula=1, nombre='Mauri', apellido='Boye'}
+[2022-04-04 13:51:22]  INFO  OdontologoDaoH2:182 Se realizó satisfactoriamente la búsqueda del odontologo Odontologo{id=4, numeroDeMatricula=2, nombre='Zoe', apellido='Tira'}
+[2022-04-04 13:53:01]  INFO  OdontologoDaoH2:156 Init connection to DB
+[2022-04-04 13:53:01]  INFO  OdontologoDaoH2:161 Connection SUCCESS
+[2022-04-04 13:53:01]  INFO  OdontologoDaoH2:167 Try execute Searching query
+[2022-04-04 13:53:01]  INFO  OdontologoDaoH2:182 Se realizó satisfactoriamente la búsqueda del odontologo Odontologo{id=1, numeroDeMatricula=1, nombre='Mauri', apellido='Boye'}
+[2022-04-04 13:53:01]  INFO  OdontologoDaoH2:182 Se realizó satisfactoriamente la búsqueda del odontologo Odontologo{id=2, numeroDeMatricula=2, nombre='Zoe', apellido='Tira'}
+[2022-04-04 13:53:01]  INFO  OdontologoDaoH2:182 Se realizó satisfactoriamente la búsqueda del odontologo Odontologo{id=3, numeroDeMatricula=1, nombre='Mauri', apellido='Boye'}
+[2022-04-04 13:53:01]  INFO  OdontologoDaoH2:182 Se realizó satisfactoriamente la búsqueda del odontologo Odontologo{id=4, numeroDeMatricula=2, nombre='Zoe', apellido='Tira'}
+[2022-04-04 13:53:53]  INFO  OdontologoDaoH2:156 Init connection to DB
+[2022-04-04 13:53:53]  INFO  OdontologoDaoH2:161 Connection SUCCESS
+[2022-04-04 13:53:53]  INFO  OdontologoDaoH2:167 Try execute Searching query
+[2022-04-04 13:53:53]  INFO  OdontologoDaoH2:182 Se realizó satisfactoriamente la búsqueda del odontologo Odontologo{id=1, numeroDeMatricula=1, nombre='Mauri', apellido='Boye'}
+[2022-04-04 13:53:53]  INFO  OdontologoDaoH2:182 Se realizó satisfactoriamente la búsqueda del odontologo Odontologo{id=2, numeroDeMatricula=2, nombre='Zoe', apellido='Tira'}
+[2022-04-04 13:53:53]  INFO  OdontologoDaoH2:182 Se realizó satisfactoriamente la búsqueda del odontologo Odontologo{id=3, numeroDeMatricula=1, nombre='Mauri', apellido='Boye'}
+[2022-04-04 13:53:53]  INFO  OdontologoDaoH2:182 Se realizó satisfactoriamente la búsqueda del odontologo Odontologo{id=4, numeroDeMatricula=2, nombre='Zoe', apellido='Tira'}
+[2022-04-04 13:54:52]  INFO  PacienteDaoH2:83 Init connection to DB
+[2022-04-04 13:54:52]  INFO  PacienteDaoH2:88 Connection SUCCESS
+[2022-04-04 13:54:52]  INFO  PacienteDaoH2:93 Try execute query
+[2022-04-04 13:54:52]  INFO  PacienteDaoH2:95 Execute query SUCCESS
+[2022-04-04 13:54:52]  INFO  DomicilioDaoH2:74 Init connection to DB
+[2022-04-04 13:54:52]  INFO  DomicilioDaoH2:79 Connection SUCCESS
+[2022-04-04 13:54:52]  INFO  DomicilioDaoH2:86 Try execute Searching query
+[2022-04-04 13:54:52]  INFO  DomicilioDaoH2:101 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=1, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}
+[2022-04-04 13:54:52]  INFO  PacienteDaoH2:114 Se realizó satisfactoriamente la búsqueda del paciente Paciente{id=1, nombre='Enrique', apellido='Maynard', DNI=3893946, fechaIngreso=2022-03-29, domicilio=Domicilio{id=1, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}}
+[2022-04-04 13:56:10]  INFO  OdontologoDaoH2:75 Init connection to DB
+[2022-04-04 13:56:10]  INFO  OdontologoDaoH2:80 Connection SUCCESS
+[2022-04-04 13:56:10]  INFO  OdontologoDaoH2:86 Try execute Searching query
+[2022-04-04 13:56:10]  INFO  OdontologoDaoH2:99 Search SUCCESS Odontologo{id=2, numeroDeMatricula=2, nombre='Zoe', apellido='Tira'}
+[2022-04-04 14:03:57]  INFO  OdontologoDaoH2:156 Init connection to DB
+[2022-04-04 14:03:57]  INFO  OdontologoDaoH2:161 Connection SUCCESS
+[2022-04-04 14:03:57]  INFO  OdontologoDaoH2:167 Try execute Searching query
+[2022-04-04 14:03:57]  INFO  OdontologoDaoH2:182 Se realizó satisfactoriamente la búsqueda del odontologo Odontologo{id=1, numeroDeMatricula=1, nombre='Mauri', apellido='Boye'}
+[2022-04-04 14:03:57]  INFO  OdontologoDaoH2:182 Se realizó satisfactoriamente la búsqueda del odontologo Odontologo{id=2, numeroDeMatricula=2, nombre='Zoe', apellido='Tira'}
+[2022-04-04 14:03:57]  INFO  OdontologoDaoH2:182 Se realizó satisfactoriamente la búsqueda del odontologo Odontologo{id=3, numeroDeMatricula=1, nombre='Mauri', apellido='Boye'}
+[2022-04-04 14:03:57]  INFO  OdontologoDaoH2:182 Se realizó satisfactoriamente la búsqueda del odontologo Odontologo{id=4, numeroDeMatricula=2, nombre='Zoe', apellido='Tira'}
+[2022-04-04 14:07:47]  INFO  OdontologoDaoH2:75 Init connection to DB
+[2022-04-04 14:07:47]  INFO  OdontologoDaoH2:80 Connection SUCCESS
+[2022-04-04 14:07:47]  INFO  OdontologoDaoH2:86 Try execute Searching query
+[2022-04-04 14:07:47]  INFO  OdontologoDaoH2:99 Search SUCCESS Odontologo{id=1, numeroDeMatricula=1, nombre='Mauri', apellido='Boye'}
+[2022-04-04 14:08:22]  INFO  OdontologoDaoH2:75 Init connection to DB
+[2022-04-04 14:08:22]  INFO  OdontologoDaoH2:80 Connection SUCCESS
+[2022-04-04 14:08:22]  INFO  OdontologoDaoH2:86 Try execute Searching query
+[2022-04-04 14:08:22]  INFO  OdontologoDaoH2:99 Search SUCCESS Odontologo{id=1, numeroDeMatricula=1, nombre='Mauri', apellido='Boye'}
+[2022-04-04 14:28:19]  INFO  OdontologoDaoH2:75 Init connection to DB
+[2022-04-04 14:28:19]  INFO  OdontologoDaoH2:80 Connection SUCCESS
+[2022-04-04 14:28:19]  INFO  OdontologoDaoH2:86 Try execute Searching query
+[2022-04-04 14:28:19]  INFO  OdontologoDaoH2:99 Search SUCCESS Odontologo{id=1, numeroDeMatricula=1, nombre='Mauri', apellido='Boye'}
+[2022-04-04 14:33:18]  INFO  OdontologoDaoH2:75 Init connection to DB
+[2022-04-04 14:33:18]  INFO  OdontologoDaoH2:80 Connection SUCCESS
+[2022-04-04 14:33:18]  INFO  OdontologoDaoH2:86 Try execute Searching query
+[2022-04-04 14:33:18]  INFO  OdontologoDaoH2:99 Search SUCCESS Odontologo{id=1, numeroDeMatricula=1, nombre='Mauri', apellido='Boye'}
+[2022-04-04 14:33:26]  INFO  TurnosDaoH2:76 Init connection to DB
+[2022-04-04 14:33:26]  INFO  TurnosDaoH2:81 Connection SUCCESS
+[2022-04-04 14:33:26]  INFO  TurnosDaoH2:83 Preparing Query
+[2022-04-04 14:33:26]  INFO  TurnosDaoH2:88 Try execute query
+[2022-04-04 14:33:26]  INFO  TurnosDaoH2:90 Execute query SUCCESS
+[2022-04-04 14:33:26]  INFO  PacienteDaoH2:83 Init connection to DB
+[2022-04-04 14:33:26]  INFO  PacienteDaoH2:88 Connection SUCCESS
+[2022-04-04 14:33:26]  INFO  PacienteDaoH2:93 Try execute query
+[2022-04-04 14:33:26]  INFO  PacienteDaoH2:95 Execute query SUCCESS
+[2022-04-04 14:33:26]  INFO  DomicilioDaoH2:74 Init connection to DB
+[2022-04-04 14:33:26]  INFO  DomicilioDaoH2:79 Connection SUCCESS
+[2022-04-04 14:33:26]  INFO  DomicilioDaoH2:86 Try execute Searching query
+[2022-04-04 14:33:26]  INFO  DomicilioDaoH2:101 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=1, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}
+[2022-04-04 14:33:26]  INFO  PacienteDaoH2:114 Se realizó satisfactoriamente la búsqueda del paciente Paciente{id=1, nombre='Enrique', apellido='Maynard', DNI=3893946, fechaIngreso=2022-03-29, domicilio=Domicilio{id=1, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}}
+[2022-04-04 14:33:26]  INFO  OdontologoDaoH2:75 Init connection to DB
+[2022-04-04 14:33:26]  INFO  OdontologoDaoH2:80 Connection SUCCESS
+[2022-04-04 14:33:26]  INFO  OdontologoDaoH2:86 Try execute Searching query
+[2022-04-04 14:33:26]  INFO  OdontologoDaoH2:99 Search SUCCESS Odontologo{id=1, numeroDeMatricula=1, nombre='Mauri', apellido='Boye'}
+[2022-04-04 14:33:26]  INFO  TurnosDaoH2:106 Se realizó satisfactoriamente la búsqueda del turno 
+[2022-04-04 14:33:43]  INFO  TurnosDaoH2:164 Init connection to DB
+[2022-04-04 14:33:43]  INFO  TurnosDaoH2:169 Connection SUCCESS
+[2022-04-04 14:33:43]  INFO  TurnosDaoH2:170 Preparing Query
+[2022-04-04 14:33:43]  INFO  TurnosDaoH2:174 Try execute query
+[2022-04-04 14:33:43]  INFO  PacienteDaoH2:83 Init connection to DB
+[2022-04-04 14:33:43]  INFO  PacienteDaoH2:88 Connection SUCCESS
+[2022-04-04 14:33:43]  INFO  PacienteDaoH2:93 Try execute query
+[2022-04-04 14:33:43]  INFO  PacienteDaoH2:95 Execute query SUCCESS
+[2022-04-04 14:33:43]  INFO  DomicilioDaoH2:74 Init connection to DB
+[2022-04-04 14:33:43]  INFO  DomicilioDaoH2:79 Connection SUCCESS
+[2022-04-04 14:33:43]  INFO  DomicilioDaoH2:86 Try execute Searching query
+[2022-04-04 14:33:43]  INFO  DomicilioDaoH2:101 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=1, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}
+[2022-04-04 14:33:43]  INFO  PacienteDaoH2:114 Se realizó satisfactoriamente la búsqueda del paciente Paciente{id=1, nombre='Enrique', apellido='Maynard', DNI=3893946, fechaIngreso=2022-03-29, domicilio=Domicilio{id=1, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}}
+[2022-04-04 14:33:43]  INFO  OdontologoDaoH2:75 Init connection to DB
+[2022-04-04 14:33:43]  INFO  OdontologoDaoH2:80 Connection SUCCESS
+[2022-04-04 14:33:43]  INFO  OdontologoDaoH2:86 Try execute Searching query
+[2022-04-04 14:33:43]  INFO  OdontologoDaoH2:99 Search SUCCESS Odontologo{id=1, numeroDeMatricula=1, nombre='Mauri', apellido='Boye'}
+[2022-04-04 14:33:43]  INFO  PacienteDaoH2:83 Init connection to DB
+[2022-04-04 14:33:43]  INFO  PacienteDaoH2:88 Connection SUCCESS
+[2022-04-04 14:33:43]  INFO  PacienteDaoH2:93 Try execute query
+[2022-04-04 14:33:43]  INFO  PacienteDaoH2:95 Execute query SUCCESS
+[2022-04-04 14:33:43]  INFO  DomicilioDaoH2:74 Init connection to DB
+[2022-04-04 14:33:43]  INFO  DomicilioDaoH2:79 Connection SUCCESS
+[2022-04-04 14:33:43]  INFO  DomicilioDaoH2:86 Try execute Searching query
+[2022-04-04 14:33:43]  INFO  DomicilioDaoH2:101 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=1, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}
+[2022-04-04 14:33:43]  INFO  PacienteDaoH2:114 Se realizó satisfactoriamente la búsqueda del paciente Paciente{id=1, nombre='Enrique', apellido='Maynard', DNI=3893946, fechaIngreso=2022-03-29, domicilio=Domicilio{id=1, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}}
+[2022-04-04 14:33:43]  INFO  OdontologoDaoH2:75 Init connection to DB
+[2022-04-04 14:33:43]  INFO  OdontologoDaoH2:80 Connection SUCCESS
+[2022-04-04 14:33:43]  INFO  OdontologoDaoH2:86 Try execute Searching query
+[2022-04-04 14:33:43]  INFO  OdontologoDaoH2:99 Search SUCCESS Odontologo{id=1, numeroDeMatricula=1, nombre='Mauri', apellido='Boye'}
+[2022-04-04 14:33:43]  INFO  TurnosDaoH2:195 Se realizó satisfactoriamente la búsqueda de todos los turnos   
+[2022-04-04 14:42:47]  INFO  TurnosDaoH2:164 Init connection to DB
+[2022-04-04 14:42:47]  INFO  TurnosDaoH2:169 Connection SUCCESS
+[2022-04-04 14:42:47]  INFO  TurnosDaoH2:170 Preparing Query
+[2022-04-04 14:42:47]  INFO  TurnosDaoH2:174 Try execute query
+[2022-04-04 14:42:47]  INFO  PacienteDaoH2:83 Init connection to DB
+[2022-04-04 14:42:47]  INFO  PacienteDaoH2:88 Connection SUCCESS
+[2022-04-04 14:42:47]  INFO  PacienteDaoH2:93 Try execute query
+[2022-04-04 14:42:47]  INFO  PacienteDaoH2:95 Execute query SUCCESS
+[2022-04-04 14:42:47]  INFO  DomicilioDaoH2:74 Init connection to DB
+[2022-04-04 14:42:47]  INFO  DomicilioDaoH2:79 Connection SUCCESS
+[2022-04-04 14:42:47]  INFO  DomicilioDaoH2:86 Try execute Searching query
+[2022-04-04 14:42:47]  INFO  DomicilioDaoH2:101 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=1, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}
+[2022-04-04 14:42:47]  INFO  PacienteDaoH2:114 Se realizó satisfactoriamente la búsqueda del paciente Paciente{id=1, nombre='Enrique', apellido='Maynard', DNI=3893946, fechaIngreso=2022-03-29, domicilio=Domicilio{id=1, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}}
+[2022-04-04 14:42:47]  INFO  OdontologoDaoH2:75 Init connection to DB
+[2022-04-04 14:42:47]  INFO  OdontologoDaoH2:80 Connection SUCCESS
+[2022-04-04 14:42:47]  INFO  OdontologoDaoH2:86 Try execute Searching query
+[2022-04-04 14:42:47]  INFO  OdontologoDaoH2:99 Search SUCCESS Odontologo{id=1, numeroDeMatricula=1, nombre='Mauri', apellido='Boye'}
+[2022-04-04 14:42:47]  INFO  PacienteDaoH2:83 Init connection to DB
+[2022-04-04 14:42:47]  INFO  PacienteDaoH2:88 Connection SUCCESS
+[2022-04-04 14:42:47]  INFO  PacienteDaoH2:93 Try execute query
+[2022-04-04 14:42:47]  INFO  PacienteDaoH2:95 Execute query SUCCESS
+[2022-04-04 14:42:47]  INFO  DomicilioDaoH2:74 Init connection to DB
+[2022-04-04 14:42:47]  INFO  DomicilioDaoH2:79 Connection SUCCESS
+[2022-04-04 14:42:47]  INFO  DomicilioDaoH2:86 Try execute Searching query
+[2022-04-04 14:42:47]  INFO  DomicilioDaoH2:101 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=1, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}
+[2022-04-04 14:42:47]  INFO  PacienteDaoH2:114 Se realizó satisfactoriamente la búsqueda del paciente Paciente{id=1, nombre='Enrique', apellido='Maynard', DNI=3893946, fechaIngreso=2022-03-29, domicilio=Domicilio{id=1, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}}
+[2022-04-04 14:42:47]  INFO  OdontologoDaoH2:75 Init connection to DB
+[2022-04-04 14:42:47]  INFO  OdontologoDaoH2:80 Connection SUCCESS
+[2022-04-04 14:42:47]  INFO  OdontologoDaoH2:86 Try execute Searching query
+[2022-04-04 14:42:47]  INFO  OdontologoDaoH2:99 Search SUCCESS Odontologo{id=1, numeroDeMatricula=1, nombre='Mauri', apellido='Boye'}
+[2022-04-04 14:42:47]  INFO  TurnosDaoH2:195 Se realizó satisfactoriamente la búsqueda de todos los turnos   
+[2022-04-04 14:42:54]  INFO  PacienteDaoH2:176 Init connection to DB
+[2022-04-04 14:42:54]  INFO  PacienteDaoH2:181 Connection SUCCESS
+[2022-04-04 14:42:54]  INFO  PacienteDaoH2:185 Try execute query
+[2022-04-04 14:42:54]  INFO  DomicilioDaoH2:74 Init connection to DB
+[2022-04-04 14:42:54]  INFO  DomicilioDaoH2:79 Connection SUCCESS
+[2022-04-04 14:42:54]  INFO  DomicilioDaoH2:86 Try execute Searching query
+[2022-04-04 14:42:54]  INFO  DomicilioDaoH2:101 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=1, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}
+[2022-04-04 14:42:54]  INFO  DomicilioDaoH2:74 Init connection to DB
+[2022-04-04 14:42:54]  INFO  DomicilioDaoH2:79 Connection SUCCESS
+[2022-04-04 14:42:54]  INFO  DomicilioDaoH2:86 Try execute Searching query
+[2022-04-04 14:42:54]  INFO  DomicilioDaoH2:101 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=3, calle='San Luis', numero=3376, localidad='Almagro', provincia='CABA'}
+[2022-04-04 14:42:54]  INFO  DomicilioDaoH2:74 Init connection to DB
+[2022-04-04 14:42:54]  INFO  DomicilioDaoH2:79 Connection SUCCESS
+[2022-04-04 14:42:54]  INFO  DomicilioDaoH2:86 Try execute Searching query
+[2022-04-04 14:42:54]  INFO  DomicilioDaoH2:101 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=4, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}
+[2022-04-04 14:42:54]  INFO  DomicilioDaoH2:74 Init connection to DB
+[2022-04-04 14:42:54]  INFO  DomicilioDaoH2:79 Connection SUCCESS
+[2022-04-04 14:42:54]  INFO  DomicilioDaoH2:86 Try execute Searching query
+[2022-04-04 14:42:54]  INFO  DomicilioDaoH2:101 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=5, calle='San Luis', numero=3376, localidad='Almagro', provincia='CABA'}
+[2022-04-04 14:42:54]  INFO  DomicilioDaoH2:74 Init connection to DB
+[2022-04-04 14:42:54]  INFO  DomicilioDaoH2:79 Connection SUCCESS
+[2022-04-04 14:42:54]  INFO  DomicilioDaoH2:86 Try execute Searching query
+[2022-04-04 14:42:54]  INFO  DomicilioDaoH2:101 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=6, calle='Olivos', numero=1133, localidad='Alberti', provincia='Bs.As'}
+[2022-04-04 14:42:54]  INFO  DomicilioDaoH2:74 Init connection to DB
+[2022-04-04 14:42:54]  INFO  DomicilioDaoH2:79 Connection SUCCESS
+[2022-04-04 14:42:54]  INFO  DomicilioDaoH2:86 Try execute Searching query
+[2022-04-04 14:42:54]  INFO  DomicilioDaoH2:101 Se realizó satisfactoriamente la búsqueda del domicilio Domicilio{id=8, calle='San martin de Cruz', numero=1457, localidad='San Martin', provincia='Tucuman'}
+[2022-04-04 14:42:54]  INFO  PacienteDaoH2:211 Se realizó satisfactoriamente la búsqueda del paciente [Paciente{id=1, nombre='Enrique', apellido='Maynard', DNI=3893946, fechaIngreso=2022-03-29, domicilio=Domicilio{id=1, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}}, Paciente{id=3, nombre='David', apellido='Moriello', DNI=38939746, fechaIngreso=2021-12-31, domicilio=Domicilio{id=3, calle='San Luis', numero=3376, localidad='Almagro', provincia='CABA'}}, Paciente{id=4, nombre='Paola', apellido='Argento', DNI=34215478, fechaIngreso=2022-03-29, domicilio=Domicilio{id=4, calle='Acassuco', numero=4698, localidad='Munro', provincia='Bs.As'}}, Paciente{id=5, nombre='Nancyyy', apellido='Escalante', DNI=39748214, fechaIngreso=2021-03-28, domicilio=Domicilio{id=5, calle='San Luis', numero=3376, localidad='Almagro', provincia='CABA'}}, Paciente{id=6, nombre='Paola', apellido='Argento', DNI=34215478, fechaIngreso=2022-03-29, domicilio=Domicilio{id=6, calle='Olivos', numero=1133, localidad='Alberti', provincia='Bs.As'}}, Paciente{id=8, nombre='Don diego', apellido='De la vega', DNI=45632187, fechaIngreso=2022-01-25, domicilio=Domicilio{id=8, calle='San martin de Cruz', numero=1457, localidad='San Martin', provincia='Tucuman'}}]
+[2022-04-04 14:43:02]  INFO  OdontologoDaoH2:156 Init connection to DB
+[2022-04-04 14:43:02]  INFO  OdontologoDaoH2:161 Connection SUCCESS
+[2022-04-04 14:43:02]  INFO  OdontologoDaoH2:167 Try execute Searching query
+[2022-04-04 14:43:02]  INFO  OdontologoDaoH2:182 Se realizó satisfactoriamente la búsqueda del odontologo Odontologo{id=1, numeroDeMatricula=1, nombre='Mauri', apellido='Boye'}
+[2022-04-04 14:43:02]  INFO  OdontologoDaoH2:182 Se realizó satisfactoriamente la búsqueda del odontologo Odontologo{id=2, numeroDeMatricula=2, nombre='Zoe', apellido='Tira'}
+[2022-04-04 14:43:02]  INFO  OdontologoDaoH2:182 Se realizó satisfactoriamente la búsqueda del odontologo Odontologo{id=3, numeroDeMatricula=1, nombre='Mauri', apellido='Boye'}
+[2022-04-04 14:43:02]  INFO  OdontologoDaoH2:182 Se realizó satisfactoriamente la búsqueda del odontologo Odontologo{id=4, numeroDeMatricula=2, nombre='Zoe', apellido='Tira'}

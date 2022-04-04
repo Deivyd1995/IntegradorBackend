@@ -24,7 +24,9 @@ public class TurnoController {
 
     @Autowired
    TurnoService turnoService;
+    @Autowired
     OdontologoService odontologoService;
+    @Autowired
     PacienteService pacienteService;
 
     @GetMapping("/id/{turnoId}")

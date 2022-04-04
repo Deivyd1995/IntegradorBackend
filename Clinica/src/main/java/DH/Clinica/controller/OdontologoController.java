@@ -19,7 +19,7 @@ public class OdontologoController {
     @Autowired
     OdontologoService odontologoService;
 
-    @GetMapping("/id/{turnoId}")
+    @GetMapping("/id/{odontologoId}")
     public Odontologo getTurno(@PathVariable int odontologoId){
         odontologoService.setOdontologoIDao(new OdontologoDaoH2());
         Odontologo odontologo = odontologoService.buscarOdontologo(odontologoId);
